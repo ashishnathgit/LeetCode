@@ -1,0 +1,38 @@
+class Solution {
+public:
+    vector<vector<int>> findWinners(vector<vector<int>>& matches) {
+        // Map to track loss count for each player
+        // Key: player ID, Value: number of losses
+        map<int, int> lossCount;
+      
+        // Process each match
+        for (auto& match : matches) {
+            int winner = match[0];
+            int loser = match[1];
+          
+            // Initialize winner with 0 losses if not already present
+            if (!lossCount.contains(winner)) {
+                lossCount[winner] = 0;
+            }
+          
+            // Increment loss count for the loser
+            ++lossCount[loser];
+        }
+      
+        // Initialize result with two empty lists
+        // result[0]: players with 0 losses
+        // result[1]: players with exactly 1 loss
+        vector<vector<int>> result(2);
+      
+        // Categorize players based on their loss count
+        for (auto& [playerId, losses] : lossCount) {
+            if (losses < 2) {
+                // Add to appropriate list (0 losses or 1 loss)
+                result[losses].push_back(playerId);
+            }
+        }
+      
+        return result;
+    }
+};
+
