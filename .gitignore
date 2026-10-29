@@ -1,0 +1,16 @@
+# Compiled binaries (e.g. `g++ foo.cpp -o foo`) have no extension,
+# so ignore everything without one, then allow files with an extension and folders.
+*
+!*.*
+!*/
+
+# Other compiler output
+*.o
+*.out
+*.exe
+*.dSYM/
+
+# macOS / editor junk
+.DS_Store
+.vscode/
+.idea/
