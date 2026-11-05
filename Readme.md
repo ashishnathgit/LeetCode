@@ -1,57 +1,84 @@
 # LeetCode Solutions in C++
 
-My solutions to LeetCode problems, written in C++, my main language. Each solution aims for the most efficient approach I can reach.
+**My structured approach to solving LeetCode problems in clean, modern C++.** Each solution prioritizes peak algorithmic efficiency while maintaining highly readable and maintainable code.
 
-This repo isn't only for interview prep. The patterns behind these problems show up in everyday software work, and practicing them makes me a better engineer.
-
----
-
-## How These Problems Apply to Real Work
-
-| Pattern | Where it shows up in practice |
-|---|---|
-| **Hash maps & sets** | Caching, removing duplicate records, counting events, fast lookups by ID, joining datasets |
-| **Two pointers & sliding window** | Processing streams and logs, rate limiting, finding patterns in text, merging sorted data |
-| **Sorting & merging** | Ranking results, merging data from several sources, scheduling, preparing data for fast search |
-| **Binary search** | Searching large sorted datasets, finding the first failing commit (`git bisect`), tuning thresholds |
-| **Linked lists** | LRU caches, undo/redo history, memory allocators, queues inside OS kernels |
-| **Trees & recursion** | File systems, the DOM, JSON/XML parsing, compilers, database indexes (B-trees) |
-| **Dynamic programming** | Diff tools, spell checkers, route planning, resource allocation, pricing and budgeting |
-| **Matrix manipulation** | Image processing (rotating, flipping), game boards, spreadsheets, graphics |
-| **Divide and conquer** | Merge sort, parallel processing, counting inversions for ranking and recommendation systems |
-| **Date & interval logic** | Booking systems, calendars, finding overlaps between schedules |
+This repository is more than just technical interview preparation—it is a continuous practice arena for honing the software design patterns, mental models, and performance optimizations required for everyday production software engineering.
 
 ---
 
-## Benefits
+## The Engineering Workflow Blueprint
 
-### Writing faster, cheaper code
-Knowing time and space complexity helps me tell the difference between code that works on 100 records and code that works on 100 million. That means lower server costs, faster pages, and fewer timeouts in production.
+The lifecycle of solving these architectural challenges builds skills that translate directly into scalable production code:
 
-### Picking the right data structure
-Many performance bugs come from using the wrong structure, like scanning a list where a hash set would do. Regular practice makes the right choice automatic.
-
-### Handling edge cases
-LeetCode's hidden tests punish missed cases: empty input, one element, duplicates, overflow, negative numbers. Thinking through these becomes a habit, and it carries over to writing reliable production code.
-
-### Breaking down hard problems
-Splitting a vague problem into smaller, solvable steps is the core of system design, debugging, and feature planning, not only puzzles.
-
-### Getting fluent in C++
-Each solution is practice with the STL (`vector`, `unordered_map`, `set`, `priority_queue`, algorithms), memory handling, and modern C++ features, which pays off in any C++ codebase.
-
-### Reading and reviewing code
-Comparing my solution to others teaches me to spot inefficiencies and cleaner approaches quickly. This is useful in code reviews.
-
-### Interview readiness
-Technical interviews test exactly these skills. Consistent practice keeps them sharp.
+```mermaid
+graph TD
+    A[Raw Problem & Vague Constraints] --> B[Pattern Recognition & Data Structure Selection]
+    B --> C[Edge-Case Mapping: Bounds, Overflows, Duplicates]
+    C --> D[C++ STL Implementation: Vectors, Maps, Custom Types]
+    D --> E[Time & Space Complexity Benchmarking]
+    E --> F[Production-Ready Code & Optimized System Performance]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style F fill:#9f9,stroke:#333,stroke-width:2px
+```
 
 ---
 
-## Approach
+## Mapping Theoretical Patterns to Real-World Architecture
 
-- All solutions are in **C++**
-- Each aims for the best time and space complexity I can reach
-- Code is kept clean and readable, not just correct
+| **Pattern** | **Production Systems Application** |
+| :--- | :--- |
+| 🗂️ **Hash Maps & Sets** | Low-latency caching tiers, deduplicating high-throughput data streams, O(1) event logging analysis, real-time dataset joins. |
+| 🔄 **Two Pointers & Sliding Window** | Log-stream log aggregators, sliding-window rate limiters, token bucket algorithms, text parsing, two-way sorted data merges. |
+| 📊 **Sorting & Merging** | Search engine result ranking, multi-source distributed data alignment, event schedulers, indexing engines. |
+| 🔍 **Binary Search** | High-performance search engines operating on immutable files, automated regression tracking (`git bisect`), distributed system parameter tuning. |
+| 🔗 **Linked Lists** | Under-the-hood LRU/LFU caching layers, transactional undo/redo pipelines, low-level custom memory allocators, OS kernel process queues. |
+| 🌳 **Trees & Recursion** | Hierarchical file systems, HTML DOM tree construction, JSON/XML abstract syntax trees, compiler building blocks, B+ tree database indices. |
+| 📐 **Dynamic Programming** | Text delta determination tools (`diff`), spell-checking dictionary software, delivery route planning optimization, cloud resource budgeting algorithms. |
+| 🔲 **Matrix Manipulation** | Computer vision pipelines (rotations, kernels), interactive game boards, grid-based spreadsheet engine cells, 2D graphics rendering. |
+| 🪓 **Divide and Conquer** | Distributed merge sort, parallel multi-threaded computing, statistical recommendation engine ranking inversion metrics. |
+| 📅 **Date & Interval Logic** | Multi-tenant booking systems, calendar overlap algorithms, resource allocation scheduling software. |
 
+---
+
+## Core Engineering Benefits
+
+### 🚀 Writing Scalable, Cost-Efficient Code
+Differentiating between $O(N^2)$ and $O(N \log N)$ complexity means the difference between a service that collapses under a production spike and one that runs smoothly. Optimal complexity reduces CPU cycles, slashes cloud compute infrastructure bills, and ensures sub-second user response times.
+
+### 🧠 Automatic Data Structure Selection
+Suboptimal data structure choice (like scanning a sequential array when a hash set or tree is required) creates massive performance bottlenecks. Continuous algorithmic practice turns structural decisions into an intuitive reflex.
+
+### 🛡️ Defending Against Edge Cases
+LeetCode’s strict test suites enforce rigorous engineering discipline. Anticipating null pointers, memory boundary overflows, type wrapping, and extreme values carries directly into writing robust, self-defending production software.
+
+### 🧩 System Deconstruction
+Breaking abstract, ambiguous puzzles into atomic, reproducible steps forms the exact foundation needed for scalable system design, complex root-cause debugging, and macro feature planning.
+
+### 🏎️ Mastering Modern C++
+Every solution refines fluency within the C++ Standard Template Library (`std::vector`, `std::unordered_map`, `std::priority_queue`, algorithms). This practice enforces explicit control over memory layouts, pointer management, and modern language paradigms.
+
+---
+
+## Repository Philosophy & Approach
+
+*   **Language Standard:** Clean, idiomatic **C++** utilizing modern conventions.
+*   **Goal:** Best-in-class time and space complexity targeting the absolute theoretical limits of the problem.
+*   **Readability:** Clear variable naming, self-documenting logic, and thoughtful commenting—written for humans, not just compilers.
+
+```mermaid
+mindmap
+  root((C++ Strategy))
+    Efficiency
+      Time Complexity Target: O1, Olog N, ON
+      Space Optimization: In-place manipulation
+    Readability
+      Clean Naming Conventions
+      Descriptive Logic Over Cryptic Tricks
+    Safety
+      Explicit Edge-Case Interception
+      Memory Leak Prevention via STL
+```
+
+---
 *Updating regularly.*
