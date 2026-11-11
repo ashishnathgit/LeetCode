@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(log n) avg, O(n) worst | Space: O(1) | Pattern: Binary Search | Use: Searching rotated data that contains duplicates
 class Solution {
 public:
     int findMin(vector<int>& nums) {

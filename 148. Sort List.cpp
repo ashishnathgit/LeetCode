@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n log n) | Space: O(log n) | Pattern: Linked List | Use: Merge sort on linked data (external sorting)
 /**
  * Definition for singly-linked list.
  * struct ListNode {

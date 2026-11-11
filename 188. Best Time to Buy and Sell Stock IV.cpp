@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n·k) | Space: O(k) | Pattern: Dynamic Programming | Use: Trading strategies with a transaction limit
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {

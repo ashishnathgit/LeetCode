@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Two Pointers | Use: Input normalization and validation
 class Solution {
 public:
     bool isPalindrome(string s) {

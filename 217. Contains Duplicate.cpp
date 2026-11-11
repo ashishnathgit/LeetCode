@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(n) | Pattern: Hash Map | Use: Duplicate detection in uploads and sign-ups
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(log n) | Space: O(1) | Pattern: Bit Manipulation | Use: Subnet and CIDR prefix calculation
 class Solution {
 public:
     int rangeBitwiseAnd(int left, int right) {

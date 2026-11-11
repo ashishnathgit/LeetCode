@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(n) | Pattern: Sorting | Use: Spotting the largest gap in time-series data
 class Solution {
 public:
     int maximumGap(vector<int>& nums) {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(total bricks) | Space: O(n) | Pattern: Hash Map | Use: Finding the best cut line (layout, shard boundaries)
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {

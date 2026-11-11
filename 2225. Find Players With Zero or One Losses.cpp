@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n log n) | Space: O(n) | Pattern: Hash Map | Use: Tournament standings and leaderboards
 #include<bits/stdc++.h>
 
 using namespace std;

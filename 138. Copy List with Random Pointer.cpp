@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: Deep-copying structures that hold cross-references
 /*
 // Definition for a Node.
 class Node {

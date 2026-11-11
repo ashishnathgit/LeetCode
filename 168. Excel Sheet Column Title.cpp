@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(log n) | Space: O(1) | Pattern: Math | Use: Spreadsheet column labels
 class Solution {
 public:
     string convertToTitle(int columnNumber) {

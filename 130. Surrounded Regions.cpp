@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(m·n) | Space: O(m·n) | Pattern: Graph | Use: Flood fill and region capture in image editors and board games
 class Solution {
 public:
     void solve(vector<vector<char>>& board) {

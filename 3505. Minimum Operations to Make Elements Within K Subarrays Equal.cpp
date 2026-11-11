@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n log x + n·k) | Space: O(n) | Pattern: Dynamic Programming | Use: Minimizing adjustment cost across batch segments
 class Solution {
 public:
     long long minOperations(vector<int>& nums, int x, int k) {

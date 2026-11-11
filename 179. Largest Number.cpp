@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n log n) | Space: O(n) | Pattern: Sorting | Use: Ordering items with a custom comparator
 class Solution {
 public:
     string largestNumber(vector<int>& nums) {

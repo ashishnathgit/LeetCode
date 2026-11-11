@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Two Pointers | Use: Rotating circular buffers
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {

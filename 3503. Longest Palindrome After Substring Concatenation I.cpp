@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n²·m²·(n+m)) | Space: O(n+m) | Pattern: String | Use: Palindrome checks across combined inputs (brute force)
 class Solution {
 public:
     int longestPalindrome(string s, string t) {

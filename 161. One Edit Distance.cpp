@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: String | Use: Typo detection and fuzzy matching
 class Solution {
 public:
     bool isOneEditDistance(string s, string t) {

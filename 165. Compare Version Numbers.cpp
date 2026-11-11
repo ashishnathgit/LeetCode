@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n+m) | Space: O(1) | Pattern: String | Use: Comparing software versions in package managers
 class Solution {
 public:
     int compareVersion(string version1, string version2) {

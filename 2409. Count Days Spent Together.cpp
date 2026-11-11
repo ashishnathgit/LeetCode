@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(1) | Space: O(1) | Pattern: Math | Use: Date-range overlap in booking systems
 #include <bits/stdc++.h>
 
 using namespace std;

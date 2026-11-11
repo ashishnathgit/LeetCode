@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Sliding Window | Use: Stream analytics limited to a few distinct values
 class Solution {
 public:
     int lengthOfLongestSubstringTwoDistinct(string s) {

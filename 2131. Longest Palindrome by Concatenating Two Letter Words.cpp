@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Hash Map | Use: Pairing complementary items, like matching buy and sell orders
 class Solution {
 public:
     int longestPalindrome(vector<string>& words) {

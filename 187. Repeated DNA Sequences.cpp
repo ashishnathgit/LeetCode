@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(n) | Pattern: Hash Map | Use: Rolling hashes for genome analysis and plagiarism checks
 class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {

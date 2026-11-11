@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(n) | Pattern: Hash Map | Use: Finding streaks in activity data (login days, uptime)
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {

@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Dynamic Programming | Use: Counting the ways to complete multi-step workflows
 class Solution {
 public:
     int climbStairs(int n) {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Dynamic Programming | Use: Best compounding period in growth-rate data
 class Solution {
 public:
     int maxProduct(vector<int>& nums) {

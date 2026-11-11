@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(1) | Space: O(1) | Pattern: Bit Manipulation | Use: Bit reversal in FFT and signal processing
 class Solution {
 public:
     int reverseBits(int n) {

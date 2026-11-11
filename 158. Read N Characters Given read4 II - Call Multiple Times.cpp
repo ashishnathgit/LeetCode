@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n) | Space: O(1) | Pattern: Design | Use: Stateful buffered readers for streams and sockets
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char *buf4);

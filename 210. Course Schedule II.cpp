@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(V+E) | Space: O(V+E) | Pattern: Topological Sort | Use: Ordering tasks in schedulers (Airflow, make)
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {

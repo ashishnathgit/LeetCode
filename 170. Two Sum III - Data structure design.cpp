@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(1) add, O(n) find | Space: O(n) | Pattern: Design | Use: Real-time pair-sum queries on streaming data
 class TwoSum {
 public:
     TwoSum() {}

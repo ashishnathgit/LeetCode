@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(n) | Pattern: Hash Map | Use: Majority voting in distributed consensus
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {

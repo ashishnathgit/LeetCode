@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(log n) | Space: O(1) | Pattern: Math | Use: Number theory in big-number libraries
 class Solution {
 public:
     int trailingZeroes(int n) {

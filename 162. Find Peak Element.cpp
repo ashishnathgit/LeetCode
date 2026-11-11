@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(log n) | Space: O(1) | Pattern: Binary Search | Use: Finding local peaks in signals and metrics
 class Solution {
 public:
     int findPeakElement(vector<int>& nums) {

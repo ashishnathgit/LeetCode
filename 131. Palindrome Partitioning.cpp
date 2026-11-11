@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n·2ⁿ) | Space: O(n²) | Pattern: Backtracking | Use: Enumerating every way to segment text
 class Solution {
 public:
     vector<vector<string>> partition(string s) {

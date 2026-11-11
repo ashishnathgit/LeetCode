@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(L) per op | Space: O(total chars) | Pattern: Trie | Use: Autocomplete and IP routing tables
 class Trie {
 public:
     Trie() : root(make_unique<Node>()) {}

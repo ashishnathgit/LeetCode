@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(2ⁿ) worst | Space: O(2ⁿ) worst | Pattern: Backtracking | Use: Generating every segmentation for spelling suggestions
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {

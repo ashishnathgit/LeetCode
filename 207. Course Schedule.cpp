@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(V+E) | Space: O(V+E) | Pattern: Topological Sort | Use: Detecting dependency cycles in build tools and package managers
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Tree | Use: Restructuring hierarchies in place
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

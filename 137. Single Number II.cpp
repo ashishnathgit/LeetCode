@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Bit Manipulation | Use: Bit-level state counters in checksums and hardware logic
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {

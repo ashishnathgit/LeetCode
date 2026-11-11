@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(h) | Pattern: Tree | Use: Bottom-up work like deleting folders or summing their sizes
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

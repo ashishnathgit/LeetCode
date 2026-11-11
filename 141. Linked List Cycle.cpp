@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: Detecting infinite loops in pointer structures
 /**
  * Definition for singly-linked list.
  * struct ListNode {

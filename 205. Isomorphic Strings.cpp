@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Hash Map | Use: Checking one-to-one mappings (ciphers, schema mapping)
 class Solution {
 public:
     bool isIsomorphic(string s, string t) {

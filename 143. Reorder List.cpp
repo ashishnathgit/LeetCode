@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: In-place reordering of buffers and playlists
 /**
  * Definition for singly-linked list.
  * struct ListNode {

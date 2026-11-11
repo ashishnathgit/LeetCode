@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Dynamic Programming | Use: Picking non-conflicting jobs or ads for maximum value
 class Solution {
 public:
     int rob(vector<int>& nums) {

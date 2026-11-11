@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(h) | Pattern: Tree | Use: Serializing trees (DOM, file systems)
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n log log n) | Space: O(n) | Pattern: Math | Use: Generating primes for hashing and cryptography
 class Solution {
 public:
     int countPrimes(int n) {

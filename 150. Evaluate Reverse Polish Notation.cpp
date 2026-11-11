@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(n) | Pattern: Stack | Use: Expression evaluation in calculators, compilers and VMs
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(1) per op | Space: O(n) | Pattern: Stack | Use: Undo stacks that track a running minimum
 class MinStack {
 public:
     MinStack() {}
