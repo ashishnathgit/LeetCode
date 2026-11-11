@@ -1,4 +1,4 @@
-# LeetCode Solutions in C++
+# LeetCode Solutions in [C++]
 
 **My structured approach to solving LeetCode problems in clean, modern C++.** Each solution prioritizes peak algorithmic efficiency while maintaining highly readable and maintainable code.
 
