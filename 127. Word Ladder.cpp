@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(N·L·26) | Space: O(N·L) | Pattern: Graph | Use: Shortest transformation chains (gene mutation, spelling fixes)
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {

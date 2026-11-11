@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(m·n) | Space: O(n) | Pattern: Dynamic Programming | Use: Resource budgeting along grid paths (robotics, games)
 class Solution {
 public:
     int calculateMinimumHP(vector<vector<int>>& dungeon) {

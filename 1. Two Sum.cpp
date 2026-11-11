@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(n) | Pattern: Hash Map | Use: Matching transaction pairs that reconcile to a target amount
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {

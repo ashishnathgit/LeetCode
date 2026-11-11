@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(log n) | Space: O(1) | Pattern: Binary Search | Use: Searching rotated logs and ring buffers
 class Solution {
 public:
     int findMin(vector<int>& nums) {

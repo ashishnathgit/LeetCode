@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Math | Use: Parsing spreadsheet column labels
 class Solution {
 public:
     int titleToNumber(string columnTitle) {

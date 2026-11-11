@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n²) | Space: O(1) | Pattern: Matrix | Use: Rotating images in photo editors and camera pipelines
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {

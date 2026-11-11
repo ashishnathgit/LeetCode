@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Two Pointers | Use: Deduplicating sorted log or event streams
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {

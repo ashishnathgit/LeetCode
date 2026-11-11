@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(log(min(m,n))) | Space: O(1) | Pattern: Binary Search | Use: Merging percentile stats from two sorted data shards
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {

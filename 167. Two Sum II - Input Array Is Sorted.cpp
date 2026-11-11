@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Two Pointers | Use: Pair matching on sorted data (budget pairing)
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {

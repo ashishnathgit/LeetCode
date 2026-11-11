@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(d) | Space: O(d) | Pattern: Hash Map | Use: Exact decimal display in calculators and finance apps
 class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) {

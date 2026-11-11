@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n) | Space: O(n) | Pattern: String | Use: KMP pattern matching in editors and DNA search
 class Solution {
 public:
     string shortestPalindrome(string s) {

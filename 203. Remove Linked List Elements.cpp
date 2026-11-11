@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: Filtering records out of linked structures
 /**
  * Definition for singly-linked list.
  * struct ListNode {

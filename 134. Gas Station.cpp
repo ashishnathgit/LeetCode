@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Greedy | Use: Route planning under fuel or battery limits
 class Solution {
 public:
     int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {

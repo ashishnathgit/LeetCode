@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(m+n) | Space: O(1) | Pattern: Linked List | Use: Finding a shared ancestor (like a git merge base)
 /**
  * Definition for singly-linked list.
  * struct ListNode {

@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Array | Use: Finding gaps in IDs, sequence numbers or schedules
 class Solution {
 public:
     vector<vector<int>> findMissingRanges(vector<int>& nums, int lower, int upper) {

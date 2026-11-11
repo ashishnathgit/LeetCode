@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(m·n·4ᴸ) | Space: O(total chars) | Pattern: Trie | Use: Word games and multi-pattern grid search
 class Solution {
 public:
     vector<string> findWords(vector<vector<char>>& board, vector<string>& words) {

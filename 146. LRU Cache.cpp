@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(1) per op | Space: O(capacity) | Pattern: Design | Use: Caches in CDNs, databases and browsers
 class LRUCache {
 public:
     LRUCache(int capacity) : capacity(capacity) {}

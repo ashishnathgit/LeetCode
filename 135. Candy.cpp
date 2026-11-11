@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n) | Space: O(n) | Pattern: Greedy | Use: Fair reward distribution under ranking rules
 class Solution {
 public:
     int candy(vector<int>& ratings) {

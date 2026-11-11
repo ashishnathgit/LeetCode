@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(m·n) | Space: O(min(m,n)) | Pattern: Graph | Use: Counting connected regions in maps and images
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {

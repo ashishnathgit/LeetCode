@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n·k log k) | Space: O(n·k) | Pattern: Hash Map | Use: Grouping equivalent search queries or near-duplicate keys
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {

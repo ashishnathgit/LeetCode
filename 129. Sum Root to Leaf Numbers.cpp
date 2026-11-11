@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(h) | Pattern: Tree | Use: Accumulating values along hierarchical paths (prefix codes)
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

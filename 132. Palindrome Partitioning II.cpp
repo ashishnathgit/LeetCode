@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n²) | Space: O(n) | Pattern: Dynamic Programming | Use: Minimal segmentation in tokenizers and compressors
 class Solution {
 public:
     int minCut(string s) {

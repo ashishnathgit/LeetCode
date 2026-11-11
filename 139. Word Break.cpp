@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n·L²) | Space: O(n) | Pattern: Dynamic Programming | Use: Word segmentation for search (hashtags, URLs, CJK text)
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {

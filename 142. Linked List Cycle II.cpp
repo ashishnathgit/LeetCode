@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: Finding where a loop starts when debugging cycles
 /**
  * Definition for singly-linked list.
  * struct ListNode {

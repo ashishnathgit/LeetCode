@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Linked List | Use: Reversing history for undo/redo
 /**
  * Definition for singly-linked list.
  * struct ListNode {

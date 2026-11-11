@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(n) | Space: O(1) | Pattern: Design | Use: Reading files through fixed-size block APIs
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char *buf4);

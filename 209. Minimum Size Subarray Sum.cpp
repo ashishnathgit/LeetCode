@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Sliding Window | Use: Shortest window that meets a quota (rate limits, SLAs)
 class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {

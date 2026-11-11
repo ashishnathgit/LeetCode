@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(N·L·26 + paths) | Space: O(N·L) | Pattern: Graph | Use: Listing every shortest route in navigation or network hops
 class Solution {
 public:
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {

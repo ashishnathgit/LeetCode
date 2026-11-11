@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n log n) | Space: O(n) | Pattern: Divide and Conquer | Use: Counting ranking inversions in recommendation systems
 class Solution {
   public:
     void merge(vector<int> &arr,vector<int>&copy,int s,int e,int &ans){

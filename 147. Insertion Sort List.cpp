@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n²) | Space: O(1) | Pattern: Linked List | Use: Keeping small, nearly sorted lists in order as items arrive
 /**
  * Definition for singly-linked list.
  * struct ListNode {

@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(L) add, O(26ᵈ·L) search | Space: O(total chars) | Pattern: Trie | Use: Wildcard dictionary search
 class WordDictionary {
 public:
     WordDictionary() : root(make_unique<Node>()) {}

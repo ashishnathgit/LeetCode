@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(n) | Pattern: String | Use: Text cleanup and tokenization
 class Solution {
 public:
     string reverseWords(string s) {

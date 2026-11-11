@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(V+E) | Space: O(V) | Pattern: Graph | Use: Deep-copying object graphs (snapshots, serialization)
 /*
 // Definition for a Node.
 class Node {

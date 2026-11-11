@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(1) | Pattern: Two Pointers | Use: Stepping through configurations in order for exhaustive testing
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {

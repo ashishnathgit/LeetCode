@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n) | Space: O(h) | Pattern: Tree | Use: Finding the most valuable path in hierarchical cost models
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

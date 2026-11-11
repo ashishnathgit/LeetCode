@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(log n) | Space: O(1) | Pattern: Math | Use: Cycle detection in iterated functions
 class Solution {
 public:
     bool isHappy(int n) {

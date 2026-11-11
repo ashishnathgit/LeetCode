@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(1) avg | Space: O(h) | Pattern: Design | Use: Lazy iterators and database cursors over sorted indexes
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

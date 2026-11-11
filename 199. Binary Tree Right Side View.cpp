@@ -1,3 +1,4 @@
+// Difficulty: Medium | Time: O(n) | Space: O(w) | Pattern: Tree | Use: Finding visible elements in UI hierarchies
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

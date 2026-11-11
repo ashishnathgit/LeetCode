@@ -1,3 +1,4 @@
+// Difficulty: Easy | Time: O(1) | Space: O(1) | Pattern: Bit Manipulation | Use: Counting set flags in permissions and bitmap indexes
 class Solution {
 public:
     int hammingWeight(int n) {

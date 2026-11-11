@@ -1,3 +1,4 @@
+// Difficulty: Hard | Time: O(n² log n) | Space: O(n) | Pattern: Hash Map | Use: Line detection in computer vision and GIS data
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
