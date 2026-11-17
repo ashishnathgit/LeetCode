@@ -119,7 +119,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 169 | [Majority Element](169.%20Majority%20Element.cpp) | [Open](https://leetcode.com/problems/majority-element/) | 🟢 Easy | O(n) | O(n) | Hash Map | Majority voting in distributed consensus |
 | 170 | [Two Sum III - Data structure design](170.%20Two%20Sum%20III%20-%20Data%20structure%20design.cpp) | [Open](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | 🟢 Easy | O(1) add, O(n) find | O(n) | Design | Real-time pair-sum queries on streaming data |
 | 171 | [Excel Sheet Column Number](171.%20Excel%20Sheet%20Column%20Number.cpp) | [Open](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | O(n) | O(1) | Math | Parsing spreadsheet column labels |
-| 172 | [Factorial Trailing Zeroes](172.%20Factorial%20Trailing%20Zeroes.cpp) | 🟡 Medium | O(log n) | O(1) | Math | Number theory in big-number libraries |
+| 172 | [Factorial Trailing Zeroes](172.%20Factorial%20Trailing%20Zeroes.cpp) | [Open](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 Medium | O(log n) | O(1) | Math | Number theory in big-number libraries |
 | 173 | [Binary Search Tree Iterator](173.%20Binary%20Search%20Tree%20Iterator.cpp) | 🟡 Medium | O(1) avg | O(h) | Design | Lazy iterators and database cursors over sorted indexes |
 | 174 | [Dungeon Game](174.%20Dungeon%20Game.cpp) | 🔴 Hard | O(m·n) | O(n) | Dynamic Programming | Resource budgeting along grid paths (robotics, games) |
 | 179 | [Largest Number](179.%20Largest%20Number.cpp) | 🟡 Medium | O(n log n) | O(n) | Sorting | Ordering items with a custom comparator |
