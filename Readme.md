@@ -11,7 +11,7 @@ This repository is more than just technical interview preparation—it is a cont
 *This section updates itself: each solution starts with a one-line tag (difficulty, time, space, pattern, real-world use), and a GitHub Action rebuilds these tables on every push.*
 
 <!-- PROGRESS:START -->
-**116 problems solved** · 🟢 31 Easy · 🟡 63 Medium · 🔴 22 Hard
+**117 problems solved** · 🟢 31 Easy · 🟡 63 Medium · 🔴 23 Hard
 
 ### By Pattern
 
@@ -55,6 +55,7 @@ This repository is more than just technical interview preparation—it is a cont
 | Monotonic Deque | 1 | — |
 | Prefix/Suffix Products | 1 | — |
 | Sliding Window + Hash Set | 1 | — |
+| Sliding Window + Monotonic Deque | 1 | — |
 | Stack (Simulated) | 1 | — |
 | Staircase Search | 1 | — |
 | Sweep Line + Multiset | 1 | — |
@@ -177,6 +178,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 2225 | [Find Players With Zero or One Losses](2225.%20Find%20Players%20With%20Zero%20or%20One%20Losses.cpp) | 🟡 Medium | O(n log n) | O(n) | Hash Map | Tournament standings and leaderboards |
 | 2409 | [Count Days Spent Together](2409.%20Count%20Days%20Spent%20Together.cpp) | 🟢 Easy | O(1) | O(1) | Math | Date-range overlap in booking systems |
 | 2911 | [Minimum Changes to Make K Semi-palindromes](2911.%20Minimum%20Changes%20to%20Make%20K%20Semi-palindromes.cpp) | 🔴 Hard | O(n^3 * log n + n^2 * k) | O(n^2) | Interval Cost Precompute + Partition DP | Splitting sequences into segments with per-segment repair cost |
+| 3420 | [Count Non-Decreasing Subarrays After K Operations](3420.%20Count%20Non-Decreasing%20Subarrays%20After%20K%20Operations.cpp) | 🔴 Hard | O(n) | O(n) | Sliding Window + Monotonic Deque | Counting ranges whose "raise to running max" cost fits a budget |
 | 3503 | [Longest Palindrome After Substring Concatenation I](3503.%20Longest%20Palindrome%20After%20Substring%20Concatenation%20I.cpp) | 🟡 Medium | O(n²·m²·(n+m)) | O(n+m) | String | Palindrome checks across combined inputs (brute force) |
 | 3505 | [Minimum Operations to Make Elements Within K Subarrays Equal](3505.%20Minimum%20Operations%20to%20Make%20Elements%20Within%20K%20Subarrays%20Equal.cpp) | 🔴 Hard | O(n log x + n·k) | O(n) | Dynamic Programming | Minimizing adjustment cost across batch segments |
 <!-- PROGRESS:END -->
