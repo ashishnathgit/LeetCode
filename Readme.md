@@ -98,7 +98,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 148 | [Sort List](148.%20Sort%20List.cpp) | [Open](https://leetcode.com/problems/sort-list/) | 🟡 Medium | O(n log n) | O(log n) | Linked List | Merge sort on linked data (external sorting) |
 | 149 | [Max Points on a Line](149.%20Max%20Points%20on%20a%20Line.cpp) | [Open](https://leetcode.com/problems/max-points-on-a-line/) | 🔴 Hard | O(n² log n) | O(n) | Hash Map | Line detection in computer vision and GIS data |
 | 150 | [Evaluate Reverse Polish Notation](150.%20Evaluate%20Reverse%20Polish%20Notation.cpp) | [Open](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | O(n) | O(n) | Stack | Expression evaluation in calculators, compilers and VMs |
-| 151 | [Reverse Words in a String](151.%20Reverse%20Words%20in%20a%20String.cpp) | 🟡 Medium | O(n) | O(n) | String | Text cleanup and tokenization |
+| 151 | [Reverse Words in a String](151.%20Reverse%20Words%20in%20a%20String.cpp) | [Open](https://leetcode.com/problems/reverse-words-in-a-string/) | 🟡 Medium | O(n) | O(n) | String | Text cleanup and tokenization |
 | 152 | [Maximum Product Subarray](152.%20Maximum%20Product%20Subarray.cpp) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Best compounding period in growth-rate data |
 | 153 | [Find Minimum in Rotated Sorted Array](153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.cpp) | 🟡 Medium | O(log n) | O(1) | Binary Search | Searching rotated logs and ring buffers |
 | 154 | [Find Minimum in Rotated Sorted Array II](154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.cpp) | 🔴 Hard | O(log n) avg, O(n) worst | O(1) | Binary Search | Searching rotated data that contains duplicates |
