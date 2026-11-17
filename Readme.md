@@ -87,7 +87,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 137 | [Single Number II](137.%20Single%20Number%20II.cpp) | [Open](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | O(n) | O(1) | Bit Manipulation | Bit-level state counters in checksums and hardware logic |
 | 138 | [Copy List with Random Pointer](138.%20Copy%20List%20with%20Random%20Pointer.cpp) | [Open](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | O(n) | O(1) | Linked List | Deep-copying structures that hold cross-references |
 | 139 | [Word Break](139.%20Word%20Break.cpp) | [Open](https://leetcode.com/problems/word-break/) | 🟡 Medium | O(n·L²) | O(n) | Dynamic Programming | Word segmentation for search (hashtags, URLs, CJK text) |
-| 140 | [Word Break II](140.%20Word%20Break%20II.cpp) | 🔴 Hard | O(2ⁿ) worst | O(2ⁿ) worst | Backtracking | Generating every segmentation for spelling suggestions |
+| 140 | [Word Break II](140.%20Word%20Break%20II.cpp) | [Open](https://leetcode.com/problems/word-break-ii/) | 🔴 Hard | O(2ⁿ) worst | O(2ⁿ) worst | Backtracking | Generating every segmentation for spelling suggestions |
 | 141 | [Linked List Cycle](141.%20Linked%20List%20Cycle.cpp) | 🟢 Easy | O(n) | O(1) | Linked List | Detecting infinite loops in pointer structures |
 | 142 | [Linked List Cycle II](142.%20Linked%20List%20Cycle%20II.cpp) | 🟡 Medium | O(n) | O(1) | Linked List | Finding where a loop starts when debugging cycles |
 | 143 | [Reorder List](143.%20Reorder%20List.cpp) | 🟡 Medium | O(n) | O(1) | Linked List | In-place reordering of buffers and playlists |
