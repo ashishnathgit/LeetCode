@@ -131,7 +131,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 191 | [Number of 1 Bits](191.%20Number%20of%201%20Bits.cpp) | [Open](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Counting set flags in permissions and bitmap indexes |
 | 198 | [House Robber](198.%20House%20Robber.cpp) | [Open](https://leetcode.com/problems/house-robber/) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Picking non-conflicting jobs or ads for maximum value |
 | 199 | [Binary Tree Right Side View](199.%20Binary%20Tree%20Right%20Side%20View.cpp) | [Open](https://leetcode.com/problems/binary-tree-right-side-view/) | 🟡 Medium | O(n) | O(w) | Tree | Finding visible elements in UI hierarchies |
-| 200 | [Number of Islands](200.%20Number%20of%20Islands.cpp) | 🟡 Medium | O(m·n) | O(min(m,n)) | Graph | Counting connected regions in maps and images |
+| 200 | [Number of Islands](200.%20Number%20of%20Islands.cpp) | [Open](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | O(m·n) | O(min(m,n)) | Graph | Counting connected regions in maps and images |
 | 201 | [Bitwise AND of Numbers Range](201.%20Bitwise%20AND%20of%20Numbers%20Range.cpp) | 🟡 Medium | O(log n) | O(1) | Bit Manipulation | Subnet and CIDR prefix calculation |
 | 202 | [Happy Number](202.%20Happy%20Number.cpp) | 🟢 Easy | O(log n) | O(1) | Math | Cycle detection in iterated functions |
 | 203 | [Remove Linked List Elements](203.%20Remove%20Linked%20List%20Elements.cpp) | 🟢 Easy | O(n) | O(1) | Linked List | Filtering records out of linked structures |
