@@ -172,7 +172,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 238 | [Product of Array Except Self](238.%20Product%20of%20Array%20Except%20Self.cpp) | [Open](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | O(n) | O(1) extra | Prefix/Suffix Products | Leave-one-out aggregates in analytics |
 | 239 | [Sliding Window Maximum](239.%20Sliding%20Window%20Maximum.cpp) | [Open](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | O(n) | O(k) | Monotonic Deque | Rolling max for stock prices and network monitoring |
 | 240 | [Search a 2D Matrix II](240.%20Search%20a%202D%20Matrix%20II.cpp) | [Open](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | O(m + n) | O(1) | Staircase Search | Lookups in row/column-sorted tables |
-| 493 | [Reverse Pairs](493.%20Reverse%20Pairs.cpp) | 🔴 Hard | O(n log n) | O(n) | Divide and Conquer | Counting ranking inversions in recommendation systems |
+| 493 | [Reverse Pairs](493.%20Reverse%20Pairs.cpp) | [Open](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | O(n log n) | O(n) | Divide and Conquer | Counting ranking inversions in recommendation systems |
 | 554 | [Brick Wall](554.%20Brick%20Wall.cpp) | 🟡 Medium | O(total bricks) | O(n) | Hash Map | Finding the best cut line (layout, shard boundaries) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp) | 🟡 Medium | O(n) | O(1) | Hash Map | Pairing complementary items, like matching buy and sell orders |
 | 2225 | [Find Players With Zero or One Losses](2225.%20Find%20Players%20With%20Zero%20or%20One%20Losses.cpp) | 🟡 Medium | O(n log n) | O(n) | Hash Map | Tournament standings and leaderboards |
