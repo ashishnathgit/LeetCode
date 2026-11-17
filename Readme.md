@@ -78,7 +78,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 128 | [Longest Consecutive Sequence](128.%20Longest%20Consecutive%20Sequence.cpp) | [Open](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | O(n) | O(n) | Hash Map | Finding streaks in activity data (login days, uptime) |
 | 129 | [Sum Root to Leaf Numbers](129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp) | [Open](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | 🟡 Medium | O(n) | O(h) | Tree | Accumulating values along hierarchical paths (prefix codes) |
 | 130 | [Surrounded Regions](130.%20Surrounded%20Regions.cpp) | [Open](https://leetcode.com/problems/surrounded-regions/) | 🟡 Medium | O(m·n) | O(m·n) | Graph | Flood fill and region capture in image editors and board games |
-| 131 | [Palindrome Partitioning](131.%20Palindrome%20Partitioning.cpp) | 🟡 Medium | O(n·2ⁿ) | O(n²) | Backtracking | Enumerating every way to segment text |
+| 131 | [Palindrome Partitioning](131.%20Palindrome%20Partitioning.cpp) | [Open](https://leetcode.com/problems/palindrome-partitioning/) | 🟡 Medium | O(n·2ⁿ) | O(n²) | Backtracking | Enumerating every way to segment text |
 | 132 | [Palindrome Partitioning II](132.%20Palindrome%20Partitioning%20II.cpp) | 🔴 Hard | O(n²) | O(n) | Dynamic Programming | Minimal segmentation in tokenizers and compressors |
 | 133 | [Clone Graph](133.%20Clone%20Graph.cpp) | 🟡 Medium | O(V+E) | O(V) | Graph | Deep-copying object graphs (snapshots, serialization) |
 | 134 | [Gas Station](134.%20Gas%20Station.cpp) | 🟡 Medium | O(n) | O(1) | Greedy | Route planning under fuel or battery limits |
