@@ -42,6 +42,13 @@ PATTERN_USE = {
     "Two Pointers": "Dedup, in-place rotation, merging sorted data",
 }
 
+def leetcode_url(title):
+    """LeetCode problem URL from the title, e.g. "Pow(x, n)" -> .../problems/powx-n/."""
+    slug = re.sub(r"[^a-z0-9 -]", "", title.lower())
+    slug = re.sub(r"[\s-]+", "-", slug).strip("-")
+    return f"https://leetcode.com/problems/{slug}/"
+
+
 TAG = re.compile(r"^//\s*Difficulty:(.*)$", re.M)
 
 
@@ -79,13 +86,13 @@ def build(problems):
         "",
         "### All Problems",
         "",
-        "| # | Problem | Difficulty | Time | Space | Pattern | Real-world use |",
-        "| ---: | :--- | :---: | :--- | :--- | :--- | :--- |",
+        "| # | Problem | LeetCode | Difficulty | Time | Space | Pattern | Real-world use |",
+        "| ---: | :--- | :---: | :---: | :--- | :--- | :--- | :--- |",
     ]
     for p in problems:
         link = f"[{p['title']}]({quote(p['file'])})"
         diff = f"{DIFF_ICON.get(p['Difficulty'], '')} {p['Difficulty'] or '—'}".strip()
-        lines.append(f"| {p['num']} | {link} | {diff} | {p['Time']} | {p['Space']} | {p['Pattern']} | {p['Use']} |")
+        lines.append(f"| {p['num']} | {link} | [Open]({leetcode_url(p['title'])}) | {diff} | {p['Time']} | {p['Space']} | {p['Pattern']} | {p['Use']} |")
 
     untagged = [p["file"] for p in problems if not p["Difficulty"]]
     return "\n".join(lines), untagged
