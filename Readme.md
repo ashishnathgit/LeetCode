@@ -148,7 +148,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 214 | [Shortest Palindrome](214.%20Shortest%20Palindrome.cpp) | [Open](https://leetcode.com/problems/shortest-palindrome/) | 🔴 Hard | O(n) | O(n) | String | KMP pattern matching in editors and DNA search |
 | 215 | [Kth Largest Element in an Array](215.%20Kth%20Largest%20Element%20in%20an%20Array.cpp) | [Open](https://leetcode.com/problems/kth-largest-element-in-an-array/) | 🟡 Medium | O(n log k) | O(k) | Heap | Top-K leaderboards and streaming rank queries |
 | 216 | [Combination Sum III](216.%20Combination%20Sum%20III.cpp) | [Open](https://leetcode.com/problems/combination-sum-iii/) | 🟡 Medium | O(C(9,k) * k) | O(k) | Backtracking | Enumerating constrained subsets in puzzles (e.g. Kakuro) |
-| 217 | [Contains Duplicate](217.%20Contains%20Duplicate.cpp) | 🟢 Easy | O(n) | O(n) | Hash Map | Duplicate detection in uploads and sign-ups |
+| 217 | [Contains Duplicate](217.%20Contains%20Duplicate.cpp) | [Open](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | O(n) | O(n) | Hash Map | Duplicate detection in uploads and sign-ups |
 | 218 | [The Skyline Problem](218.%20The%20Skyline%20Problem.cpp) | 🔴 Hard | O(n log n) | O(n) | Sweep Line + Multiset | Rendering silhouettes and interval union heights |
 | 219 | [Contains Duplicate II](219.%20Contains%20Duplicate%20II.cpp) | 🟢 Easy | O(n) | O(k) | Sliding Window + Hash Set | Detecting repeated events within a time window |
 | 220 | [Contains Duplicate III](220.%20Contains%20Duplicate%20III.cpp) | 🔴 Hard | O(n) | O(k) | Bucketing + Sliding Window | Near-duplicate detection in sensor/price streams |
