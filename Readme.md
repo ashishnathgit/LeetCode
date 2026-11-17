@@ -111,7 +111,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 161 | [One Edit Distance](161.%20One%20Edit%20Distance.cpp) | [Open](https://leetcode.com/problems/one-edit-distance/) | 🟡 Medium | O(n) | O(1) | String | Typo detection and fuzzy matching |
 | 162 | [Find Peak Element](162.%20Find%20Peak%20Element.cpp) | [Open](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | O(log n) | O(1) | Binary Search | Finding local peaks in signals and metrics |
 | 163 | [Missing Ranges](163.%20Missing%20Ranges.cpp) | [Open](https://leetcode.com/problems/missing-ranges/) | 🟢 Easy | O(n) | O(1) | Array | Finding gaps in IDs, sequence numbers or schedules |
-| 164 | [Maximum Gap](164.%20Maximum%20Gap.cpp) | 🟡 Medium | O(n) | O(n) | Sorting | Spotting the largest gap in time-series data |
+| 164 | [Maximum Gap](164.%20Maximum%20Gap.cpp) | [Open](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | O(n) | O(n) | Sorting | Spotting the largest gap in time-series data |
 | 165 | [Compare Version Numbers](165.%20Compare%20Version%20Numbers.cpp) | 🟡 Medium | O(n+m) | O(1) | String | Comparing software versions in package managers |
 | 166 | [Fraction to Recurring Decimal](166.%20Fraction%20to%20Recurring%20Decimal.cpp) | 🟡 Medium | O(d) | O(d) | Hash Map | Exact decimal display in calculators and finance apps |
 | 167 | [Two Sum II - Input Array Is Sorted](167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp) | 🟡 Medium | O(n) | O(1) | Two Pointers | Pair matching on sorted data (budget pairing) |
