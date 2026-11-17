@@ -158,7 +158,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 224 | [Basic Calculator](224.%20Basic%20Calculator.cpp) | [Open](https://leetcode.com/problems/basic-calculator/) | 🔴 Hard | O(n) | O(n) | Stack | Expression evaluation in calculators and interpreters |
 | 225 | [Implement Stack using Queues](225.%20Implement%20Stack%20using%20Queues.cpp) | [Open](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | O(n) push, O(1) others | O(n) | Design + Queue | Adapting data structure interfaces |
 | 226 | [Invert Binary Tree](226.%20Invert%20Binary%20Tree.cpp) | [Open](https://leetcode.com/problems/invert-binary-tree/) | 🟢 Easy | O(n) | O(h) | Binary Tree DFS | Mirroring hierarchical layouts (e.g. RTL UI trees) |
-| 227 | [Basic Calculator II](227.%20Basic%20Calculator%20II.cpp) | 🟡 Medium | O(n) | O(1) | Stack (Simulated) | Operator-precedence parsing in expression engines |
+| 227 | [Basic Calculator II](227.%20Basic%20Calculator%20II.cpp) | [Open](https://leetcode.com/problems/basic-calculator-ii/) | 🟡 Medium | O(n) | O(1) | Stack (Simulated) | Operator-precedence parsing in expression engines |
 | 228 | [Summary Ranges](228.%20Summary%20Ranges.cpp) | 🟢 Easy | O(n) | O(1) | Two Pointers | Compressing ID lists (e.g. "pages 1-5, 8") |
 | 229 | [Majority Element II](229.%20Majority%20Element%20II.cpp) | 🟡 Medium | O(n) | O(1) | Boyer-Moore Voting | Finding heavy hitters in data streams |
 | 230 | [Kth Smallest Element in a BST](230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp) | 🟡 Medium | O(h + k) | O(h) | BST Inorder Traversal | Order-statistic queries on sorted indexes |
