@@ -72,7 +72,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 49 | [Group Anagrams](49.%20Group%20Anagrams.cpp) | [Open](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | O(n·k log k) | O(n·k) | Hash Map | Grouping equivalent search queries or near-duplicate keys |
 | 70 | [Climbing Stairs](70.%20Climbing%20Stairs.cpp) | [Open](https://leetcode.com/problems/climbing-stairs/) | 🟢 Easy | O(n) | O(1) | Dynamic Programming | Counting the ways to complete multi-step workflows |
 | 124 | [Binary Tree Maximum Path Sum](124.%20Binary%20Tree%20Maximum%20Path%20Sum.cpp) | [Open](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | O(n) | O(h) | Tree | Finding the most valuable path in hierarchical cost models |
-| 125 | [Valid Palindrome](125.%20Valid%20Palindrome.cpp) | 🟢 Easy | O(n) | O(1) | Two Pointers | Input normalization and validation |
+| 125 | [Valid Palindrome](125.%20Valid%20Palindrome.cpp) | [Open](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | O(n) | O(1) | Two Pointers | Input normalization and validation |
 | 126 | [Word Ladder II](126.%20Word%20Ladder%20II.cpp) | 🔴 Hard | O(N·L·26 + paths) | O(N·L) | Graph | Listing every shortest route in navigation or network hops |
 | 127 | [Word Ladder](127.%20Word%20Ladder.cpp) | 🔴 Hard | O(N·L·26) | O(N·L) | Graph | Shortest transformation chains (gene mutation, spelling fixes) |
 | 128 | [Longest Consecutive Sequence](128.%20Longest%20Consecutive%20Sequence.cpp) | 🟡 Medium | O(n) | O(n) | Hash Map | Finding streaks in activity data (login days, uptime) |
