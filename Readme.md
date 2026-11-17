@@ -137,7 +137,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 203 | [Remove Linked List Elements](203.%20Remove%20Linked%20List%20Elements.cpp) | [Open](https://leetcode.com/problems/remove-linked-list-elements/) | 🟢 Easy | O(n) | O(1) | Linked List | Filtering records out of linked structures |
 | 204 | [Count Primes](204.%20Count%20Primes.cpp) | [Open](https://leetcode.com/problems/count-primes/) | 🟡 Medium | O(n log log n) | O(n) | Math | Generating primes for hashing and cryptography |
 | 205 | [Isomorphic Strings](205.%20Isomorphic%20Strings.cpp) | [Open](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | O(n) | O(1) | Hash Map | Checking one-to-one mappings (ciphers, schema mapping) |
-| 206 | [Reverse Linked List](206.%20Reverse%20Linked%20List.cpp) | 🟢 Easy | O(n) | O(1) | Linked List | Reversing history for undo/redo |
+| 206 | [Reverse Linked List](206.%20Reverse%20Linked%20List.cpp) | [Open](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | O(n) | O(1) | Linked List | Reversing history for undo/redo |
 | 207 | [Course Schedule](207.%20Course%20Schedule.cpp) | 🟡 Medium | O(V+E) | O(V+E) | Topological Sort | Detecting dependency cycles in build tools and package managers |
 | 208 | [Implement Trie (Prefix Tree)](208.%20Implement%20Trie%20%28Prefix%20Tree%29.cpp) | 🟡 Medium | O(L) per op | O(total chars) | Trie | Autocomplete and IP routing tables |
 | 209 | [Minimum Size Subarray Sum](209.%20Minimum%20Size%20Subarray%20Sum.cpp) | 🟡 Medium | O(n) | O(1) | Sliding Window | Shortest window that meets a quota (rate limits, SLAs) |
