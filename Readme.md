@@ -141,7 +141,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 207 | [Course Schedule](207.%20Course%20Schedule.cpp) | [Open](https://leetcode.com/problems/course-schedule/) | 🟡 Medium | O(V+E) | O(V+E) | Topological Sort | Detecting dependency cycles in build tools and package managers |
 | 208 | [Implement Trie (Prefix Tree)](208.%20Implement%20Trie%20%28Prefix%20Tree%29.cpp) | [Open](https://leetcode.com/problems/implement-trie-prefix-tree/) | 🟡 Medium | O(L) per op | O(total chars) | Trie | Autocomplete and IP routing tables |
 | 209 | [Minimum Size Subarray Sum](209.%20Minimum%20Size%20Subarray%20Sum.cpp) | [Open](https://leetcode.com/problems/minimum-size-subarray-sum/) | 🟡 Medium | O(n) | O(1) | Sliding Window | Shortest window that meets a quota (rate limits, SLAs) |
-| 210 | [Course Schedule II](210.%20Course%20Schedule%20II.cpp) | 🟡 Medium | O(V+E) | O(V+E) | Topological Sort | Ordering tasks in schedulers (Airflow, make) |
+| 210 | [Course Schedule II](210.%20Course%20Schedule%20II.cpp) | [Open](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | O(V+E) | O(V+E) | Topological Sort | Ordering tasks in schedulers (Airflow, make) |
 | 211 | [Design Add and Search Words Data Structure](211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) | 🟡 Medium | O(L) add, O(26ᵈ·L) search | O(total chars) | Trie | Wildcard dictionary search |
 | 212 | [Word Search II](212.%20Word%20Search%20II.cpp) | 🔴 Hard | O(m·n·4ᴸ) | O(total chars) | Trie | Word games and multi-pattern grid search |
 | 213 | [House Robber II](213.%20House%20Robber%20II.cpp) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Scheduling on circular timetables |
