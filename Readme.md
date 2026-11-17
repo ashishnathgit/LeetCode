@@ -67,7 +67,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 1 | [Two Sum](1.%20Two%20Sum.cpp) | [Open](https://leetcode.com/problems/two-sum/) | 🟢 Easy | O(n) | O(n) | Hash Map | Matching transaction pairs that reconcile to a target amount |
 | 4 | [Median of Two Sorted Arrays](4.%20Median%20of%20Two%20Sorted%20Arrays.cpp) | [Open](https://leetcode.com/problems/median-of-two-sorted-arrays/) | 🔴 Hard | O(log(min(m,n))) | O(1) | Binary Search | Merging percentile stats from two sorted data shards |
 | 26 | [Remove Duplicates from Sorted Array](26.%20Remove%20Duplicates%20from%20Sorted%20Array.cpp) | [Open](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | O(n) | O(1) | Two Pointers | Deduplicating sorted log or event streams |
-| 31 | [Next Permutation](31.%20Next%20Permutation.cpp) | 🟡 Medium | O(n) | O(1) | Two Pointers | Stepping through configurations in order for exhaustive testing |
+| 31 | [Next Permutation](31.%20Next%20Permutation.cpp) | [Open](https://leetcode.com/problems/next-permutation/) | 🟡 Medium | O(n) | O(1) | Two Pointers | Stepping through configurations in order for exhaustive testing |
 | 48 | [Rotate Image](48.%20Rotate%20Image.cpp) | 🟡 Medium | O(n²) | O(1) | Matrix | Rotating images in photo editors and camera pipelines |
 | 49 | [Group Anagrams](49.%20Group%20Anagrams.cpp) | 🟡 Medium | O(n·k log k) | O(n·k) | Hash Map | Grouping equivalent search queries or near-duplicate keys |
 | 70 | [Climbing Stairs](70.%20Climbing%20Stairs.cpp) | 🟢 Easy | O(n) | O(1) | Dynamic Programming | Counting the ways to complete multi-step workflows |
