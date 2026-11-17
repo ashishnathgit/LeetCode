@@ -93,7 +93,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 143 | [Reorder List](143.%20Reorder%20List.cpp) | [Open](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | O(n) | O(1) | Linked List | In-place reordering of buffers and playlists |
 | 144 | [Binary Tree Preorder Traversal](144.%20Binary%20Tree%20Preorder%20Traversal.cpp) | [Open](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | O(n) | O(h) | Tree | Serializing trees (DOM, file systems) |
 | 145 | [Binary Tree Postorder Traversal](145.%20Binary%20Tree%20Postorder%20Traversal.cpp) | [Open](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 🟢 Easy | O(n) | O(h) | Tree | Bottom-up work like deleting folders or summing their sizes |
-| 146 | [LRU Cache](146.%20LRU%20Cache.cpp) | 🟡 Medium | O(1) per op | O(capacity) | Design | Caches in CDNs, databases and browsers |
+| 146 | [LRU Cache](146.%20LRU%20Cache.cpp) | [Open](https://leetcode.com/problems/lru-cache/) | 🟡 Medium | O(1) per op | O(capacity) | Design | Caches in CDNs, databases and browsers |
 | 147 | [Insertion Sort List](147.%20Insertion%20Sort%20List.cpp) | 🟡 Medium | O(n²) | O(1) | Linked List | Keeping small, nearly sorted lists in order as items arrive |
 | 148 | [Sort List](148.%20Sort%20List.cpp) | 🟡 Medium | O(n log n) | O(log n) | Linked List | Merge sort on linked data (external sorting) |
 | 149 | [Max Points on a Line](149.%20Max%20Points%20on%20a%20Line.cpp) | 🔴 Hard | O(n² log n) | O(n) | Hash Map | Line detection in computer vision and GIS data |
