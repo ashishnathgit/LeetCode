@@ -82,7 +82,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 132 | [Palindrome Partitioning II](132.%20Palindrome%20Partitioning%20II.cpp) | [Open](https://leetcode.com/problems/palindrome-partitioning-ii/) | 🔴 Hard | O(n²) | O(n) | Dynamic Programming | Minimal segmentation in tokenizers and compressors |
 | 133 | [Clone Graph](133.%20Clone%20Graph.cpp) | [Open](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | O(V+E) | O(V) | Graph | Deep-copying object graphs (snapshots, serialization) |
 | 134 | [Gas Station](134.%20Gas%20Station.cpp) | [Open](https://leetcode.com/problems/gas-station/) | 🟡 Medium | O(n) | O(1) | Greedy | Route planning under fuel or battery limits |
-| 135 | [Candy](135.%20Candy.cpp) | 🔴 Hard | O(n) | O(n) | Greedy | Fair reward distribution under ranking rules |
+| 135 | [Candy](135.%20Candy.cpp) | [Open](https://leetcode.com/problems/candy/) | 🔴 Hard | O(n) | O(n) | Greedy | Fair reward distribution under ranking rules |
 | 136 | [Single Number](136.%20Single%20Number.cpp) | 🟢 Easy | O(n) | O(1) | Bit Manipulation | Finding the unpaired item with XOR parity (error detection) |
 | 137 | [Single Number II](137.%20Single%20Number%20II.cpp) | 🟡 Medium | O(n) | O(1) | Bit Manipulation | Bit-level state counters in checksums and hardware logic |
 | 138 | [Copy List with Random Pointer](138.%20Copy%20List%20with%20Random%20Pointer.cpp) | 🟡 Medium | O(n) | O(1) | Linked List | Deep-copying structures that hold cross-references |
