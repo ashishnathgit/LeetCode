@@ -144,7 +144,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 210 | [Course Schedule II](210.%20Course%20Schedule%20II.cpp) | [Open](https://leetcode.com/problems/course-schedule-ii/) | 🟡 Medium | O(V+E) | O(V+E) | Topological Sort | Ordering tasks in schedulers (Airflow, make) |
 | 211 | [Design Add and Search Words Data Structure](211.%20Design%20Add%20and%20Search%20Words%20Data%20Structure.cpp) | [Open](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | O(L) add, O(26ᵈ·L) search | O(total chars) | Trie | Wildcard dictionary search |
 | 212 | [Word Search II](212.%20Word%20Search%20II.cpp) | [Open](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | O(m·n·4ᴸ) | O(total chars) | Trie | Word games and multi-pattern grid search |
-| 213 | [House Robber II](213.%20House%20Robber%20II.cpp) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Scheduling on circular timetables |
+| 213 | [House Robber II](213.%20House%20Robber%20II.cpp) | [Open](https://leetcode.com/problems/house-robber-ii/) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Scheduling on circular timetables |
 | 214 | [Shortest Palindrome](214.%20Shortest%20Palindrome.cpp) | 🔴 Hard | O(n) | O(n) | String | KMP pattern matching in editors and DNA search |
 | 215 | [Kth Largest Element in an Array](215.%20Kth%20Largest%20Element%20in%20an%20Array.cpp) | 🟡 Medium | O(n log k) | O(k) | Heap | Top-K leaderboards and streaming rank queries |
 | 216 | [Combination Sum III](216.%20Combination%20Sum%20III.cpp) | 🟡 Medium | O(C(9,k) * k) | O(k) | Backtracking | Enumerating constrained subsets in puzzles (e.g. Kakuro) |
