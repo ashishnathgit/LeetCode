@@ -151,7 +151,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 217 | [Contains Duplicate](217.%20Contains%20Duplicate.cpp) | [Open](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | O(n) | O(n) | Hash Map | Duplicate detection in uploads and sign-ups |
 | 218 | [The Skyline Problem](218.%20The%20Skyline%20Problem.cpp) | [Open](https://leetcode.com/problems/the-skyline-problem/) | 🔴 Hard | O(n log n) | O(n) | Sweep Line + Multiset | Rendering silhouettes and interval union heights |
 | 219 | [Contains Duplicate II](219.%20Contains%20Duplicate%20II.cpp) | [Open](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | O(n) | O(k) | Sliding Window + Hash Set | Detecting repeated events within a time window |
-| 220 | [Contains Duplicate III](220.%20Contains%20Duplicate%20III.cpp) | 🔴 Hard | O(n) | O(k) | Bucketing + Sliding Window | Near-duplicate detection in sensor/price streams |
+| 220 | [Contains Duplicate III](220.%20Contains%20Duplicate%20III.cpp) | [Open](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | O(n) | O(k) | Bucketing + Sliding Window | Near-duplicate detection in sensor/price streams |
 | 221 | [Maximal Square](221.%20Maximal%20Square.cpp) | 🟡 Medium | O(m*n) | O(n) | 2D DP | Finding largest free square region in image/grid maps |
 | 222 | [Count Complete Tree Nodes](222.%20Count%20Complete%20Tree%20Nodes.cpp) | 🟢 Easy | O(log^2 n) | O(log n) | Binary Tree + Divide and Conquer | Sizing heap-shaped trees without full traversal |
 | 223 | [Rectangle Area](223.%20Rectangle%20Area.cpp) | 🟡 Medium | O(1) | O(1) | Geometry | Bounding-box overlap in collision detection and UI layout |
