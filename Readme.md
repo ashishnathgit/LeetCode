@@ -91,7 +91,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 141 | [Linked List Cycle](141.%20Linked%20List%20Cycle.cpp) | [Open](https://leetcode.com/problems/linked-list-cycle/) | 🟢 Easy | O(n) | O(1) | Linked List | Detecting infinite loops in pointer structures |
 | 142 | [Linked List Cycle II](142.%20Linked%20List%20Cycle%20II.cpp) | [Open](https://leetcode.com/problems/linked-list-cycle-ii/) | 🟡 Medium | O(n) | O(1) | Linked List | Finding where a loop starts when debugging cycles |
 | 143 | [Reorder List](143.%20Reorder%20List.cpp) | [Open](https://leetcode.com/problems/reorder-list/) | 🟡 Medium | O(n) | O(1) | Linked List | In-place reordering of buffers and playlists |
-| 144 | [Binary Tree Preorder Traversal](144.%20Binary%20Tree%20Preorder%20Traversal.cpp) | 🟢 Easy | O(n) | O(h) | Tree | Serializing trees (DOM, file systems) |
+| 144 | [Binary Tree Preorder Traversal](144.%20Binary%20Tree%20Preorder%20Traversal.cpp) | [Open](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 🟢 Easy | O(n) | O(h) | Tree | Serializing trees (DOM, file systems) |
 | 145 | [Binary Tree Postorder Traversal](145.%20Binary%20Tree%20Postorder%20Traversal.cpp) | 🟢 Easy | O(n) | O(h) | Tree | Bottom-up work like deleting folders or summing their sizes |
 | 146 | [LRU Cache](146.%20LRU%20Cache.cpp) | 🟡 Medium | O(1) per op | O(capacity) | Design | Caches in CDNs, databases and browsers |
 | 147 | [Insertion Sort List](147.%20Insertion%20Sort%20List.cpp) | 🟡 Medium | O(n²) | O(1) | Linked List | Keeping small, nearly sorted lists in order as items arrive |
