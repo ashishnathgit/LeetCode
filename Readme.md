@@ -124,7 +124,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 174 | [Dungeon Game](174.%20Dungeon%20Game.cpp) | [Open](https://leetcode.com/problems/dungeon-game/) | 🔴 Hard | O(m·n) | O(n) | Dynamic Programming | Resource budgeting along grid paths (robotics, games) |
 | 179 | [Largest Number](179.%20Largest%20Number.cpp) | [Open](https://leetcode.com/problems/largest-number/) | 🟡 Medium | O(n log n) | O(n) | Sorting | Ordering items with a custom comparator |
 | 186 | [Reverse Words in a String II](186.%20Reverse%20Words%20in%20a%20String%20II.cpp) | [Open](https://leetcode.com/problems/reverse-words-in-a-string-ii/) | 🟡 Medium | O(n) | O(1) | Two Pointers | In-place text edits on memory-limited systems |
-| 187 | [Repeated DNA Sequences](187.%20Repeated%20DNA%20Sequences.cpp) | 🟡 Medium | O(n) | O(n) | Hash Map | Rolling hashes for genome analysis and plagiarism checks |
+| 187 | [Repeated DNA Sequences](187.%20Repeated%20DNA%20Sequences.cpp) | [Open](https://leetcode.com/problems/repeated-dna-sequences/) | 🟡 Medium | O(n) | O(n) | Hash Map | Rolling hashes for genome analysis and plagiarism checks |
 | 188 | [Best Time to Buy and Sell Stock IV](188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.cpp) | 🔴 Hard | O(n·k) | O(k) | Dynamic Programming | Trading strategies with a transaction limit |
 | 189 | [Rotate Array](189.%20Rotate%20Array.cpp) | 🟡 Medium | O(n) | O(1) | Two Pointers | Rotating circular buffers |
 | 190 | [Reverse Bits](190.%20Reverse%20Bits.cpp) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Bit reversal in FFT and signal processing |
