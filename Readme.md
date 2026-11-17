@@ -75,7 +75,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 125 | [Valid Palindrome](125.%20Valid%20Palindrome.cpp) | [Open](https://leetcode.com/problems/valid-palindrome/) | 🟢 Easy | O(n) | O(1) | Two Pointers | Input normalization and validation |
 | 126 | [Word Ladder II](126.%20Word%20Ladder%20II.cpp) | [Open](https://leetcode.com/problems/word-ladder-ii/) | 🔴 Hard | O(N·L·26 + paths) | O(N·L) | Graph | Listing every shortest route in navigation or network hops |
 | 127 | [Word Ladder](127.%20Word%20Ladder.cpp) | [Open](https://leetcode.com/problems/word-ladder/) | 🔴 Hard | O(N·L·26) | O(N·L) | Graph | Shortest transformation chains (gene mutation, spelling fixes) |
-| 128 | [Longest Consecutive Sequence](128.%20Longest%20Consecutive%20Sequence.cpp) | 🟡 Medium | O(n) | O(n) | Hash Map | Finding streaks in activity data (login days, uptime) |
+| 128 | [Longest Consecutive Sequence](128.%20Longest%20Consecutive%20Sequence.cpp) | [Open](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | O(n) | O(n) | Hash Map | Finding streaks in activity data (login days, uptime) |
 | 129 | [Sum Root to Leaf Numbers](129.%20Sum%20Root%20to%20Leaf%20Numbers.cpp) | 🟡 Medium | O(n) | O(h) | Tree | Accumulating values along hierarchical paths (prefix codes) |
 | 130 | [Surrounded Regions](130.%20Surrounded%20Regions.cpp) | 🟡 Medium | O(m·n) | O(m·n) | Graph | Flood fill and region capture in image editors and board games |
 | 131 | [Palindrome Partitioning](131.%20Palindrome%20Partitioning.cpp) | 🟡 Medium | O(n·2ⁿ) | O(n²) | Backtracking | Enumerating every way to segment text |
