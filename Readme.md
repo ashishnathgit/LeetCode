@@ -85,7 +85,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 135 | [Candy](135.%20Candy.cpp) | [Open](https://leetcode.com/problems/candy/) | 🔴 Hard | O(n) | O(n) | Greedy | Fair reward distribution under ranking rules |
 | 136 | [Single Number](136.%20Single%20Number.cpp) | [Open](https://leetcode.com/problems/single-number/) | 🟢 Easy | O(n) | O(1) | Bit Manipulation | Finding the unpaired item with XOR parity (error detection) |
 | 137 | [Single Number II](137.%20Single%20Number%20II.cpp) | [Open](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | O(n) | O(1) | Bit Manipulation | Bit-level state counters in checksums and hardware logic |
-| 138 | [Copy List with Random Pointer](138.%20Copy%20List%20with%20Random%20Pointer.cpp) | 🟡 Medium | O(n) | O(1) | Linked List | Deep-copying structures that hold cross-references |
+| 138 | [Copy List with Random Pointer](138.%20Copy%20List%20with%20Random%20Pointer.cpp) | [Open](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | O(n) | O(1) | Linked List | Deep-copying structures that hold cross-references |
 | 139 | [Word Break](139.%20Word%20Break.cpp) | 🟡 Medium | O(n·L²) | O(n) | Dynamic Programming | Word segmentation for search (hashtags, URLs, CJK text) |
 | 140 | [Word Break II](140.%20Word%20Break%20II.cpp) | 🔴 Hard | O(2ⁿ) worst | O(2ⁿ) worst | Backtracking | Generating every segmentation for spelling suggestions |
 | 141 | [Linked List Cycle](141.%20Linked%20List%20Cycle.cpp) | 🟢 Easy | O(n) | O(1) | Linked List | Detecting infinite loops in pointer structures |
