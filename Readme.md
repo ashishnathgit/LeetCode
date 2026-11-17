@@ -161,7 +161,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 227 | [Basic Calculator II](227.%20Basic%20Calculator%20II.cpp) | [Open](https://leetcode.com/problems/basic-calculator-ii/) | 🟡 Medium | O(n) | O(1) | Stack (Simulated) | Operator-precedence parsing in expression engines |
 | 228 | [Summary Ranges](228.%20Summary%20Ranges.cpp) | [Open](https://leetcode.com/problems/summary-ranges/) | 🟢 Easy | O(n) | O(1) | Two Pointers | Compressing ID lists (e.g. "pages 1-5, 8") |
 | 229 | [Majority Element II](229.%20Majority%20Element%20II.cpp) | [Open](https://leetcode.com/problems/majority-element-ii/) | 🟡 Medium | O(n) | O(1) | Boyer-Moore Voting | Finding heavy hitters in data streams |
-| 230 | [Kth Smallest Element in a BST](230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp) | 🟡 Medium | O(h + k) | O(h) | BST Inorder Traversal | Order-statistic queries on sorted indexes |
+| 230 | [Kth Smallest Element in a BST](230.%20Kth%20Smallest%20Element%20in%20a%20BST.cpp) | [Open](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | 🟡 Medium | O(h + k) | O(h) | BST Inorder Traversal | Order-statistic queries on sorted indexes |
 | 231 | [Power of Two](231.%20Power%20of%20Two.cpp) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Validating buffer/allocation sizes |
 | 232 | [Implement Queue using Stacks](232.%20Implement%20Queue%20using%20Stacks.cpp) | 🟢 Easy | O(1) amortized | O(n) | Design + Stack | Building FIFO buffers from LIFO primitives |
 | 233 | [Number of Digit One](233.%20Number%20of%20Digit%20One.cpp) | 🔴 Hard | O(log n) | O(1) | Math / Digit Counting | Digit frequency analysis (e.g. Benford checks) |
