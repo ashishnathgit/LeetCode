@@ -153,7 +153,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 219 | [Contains Duplicate II](219.%20Contains%20Duplicate%20II.cpp) | [Open](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | O(n) | O(k) | Sliding Window + Hash Set | Detecting repeated events within a time window |
 | 220 | [Contains Duplicate III](220.%20Contains%20Duplicate%20III.cpp) | [Open](https://leetcode.com/problems/contains-duplicate-iii/) | 🔴 Hard | O(n) | O(k) | Bucketing + Sliding Window | Near-duplicate detection in sensor/price streams |
 | 221 | [Maximal Square](221.%20Maximal%20Square.cpp) | [Open](https://leetcode.com/problems/maximal-square/) | 🟡 Medium | O(m*n) | O(n) | 2D DP | Finding largest free square region in image/grid maps |
-| 222 | [Count Complete Tree Nodes](222.%20Count%20Complete%20Tree%20Nodes.cpp) | 🟢 Easy | O(log^2 n) | O(log n) | Binary Tree + Divide and Conquer | Sizing heap-shaped trees without full traversal |
+| 222 | [Count Complete Tree Nodes](222.%20Count%20Complete%20Tree%20Nodes.cpp) | [Open](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟢 Easy | O(log^2 n) | O(log n) | Binary Tree + Divide and Conquer | Sizing heap-shaped trees without full traversal |
 | 223 | [Rectangle Area](223.%20Rectangle%20Area.cpp) | 🟡 Medium | O(1) | O(1) | Geometry | Bounding-box overlap in collision detection and UI layout |
 | 224 | [Basic Calculator](224.%20Basic%20Calculator.cpp) | 🔴 Hard | O(n) | O(n) | Stack | Expression evaluation in calculators and interpreters |
 | 225 | [Implement Stack using Queues](225.%20Implement%20Stack%20using%20Queues.cpp) | 🟢 Easy | O(n) push, O(1) others | O(n) | Design + Queue | Adapting data structure interfaces |
