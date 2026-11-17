@@ -156,7 +156,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 222 | [Count Complete Tree Nodes](222.%20Count%20Complete%20Tree%20Nodes.cpp) | [Open](https://leetcode.com/problems/count-complete-tree-nodes/) | 🟢 Easy | O(log^2 n) | O(log n) | Binary Tree + Divide and Conquer | Sizing heap-shaped trees without full traversal |
 | 223 | [Rectangle Area](223.%20Rectangle%20Area.cpp) | [Open](https://leetcode.com/problems/rectangle-area/) | 🟡 Medium | O(1) | O(1) | Geometry | Bounding-box overlap in collision detection and UI layout |
 | 224 | [Basic Calculator](224.%20Basic%20Calculator.cpp) | [Open](https://leetcode.com/problems/basic-calculator/) | 🔴 Hard | O(n) | O(n) | Stack | Expression evaluation in calculators and interpreters |
-| 225 | [Implement Stack using Queues](225.%20Implement%20Stack%20using%20Queues.cpp) | 🟢 Easy | O(n) push, O(1) others | O(n) | Design + Queue | Adapting data structure interfaces |
+| 225 | [Implement Stack using Queues](225.%20Implement%20Stack%20using%20Queues.cpp) | [Open](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | O(n) push, O(1) others | O(n) | Design + Queue | Adapting data structure interfaces |
 | 226 | [Invert Binary Tree](226.%20Invert%20Binary%20Tree.cpp) | 🟢 Easy | O(n) | O(h) | Binary Tree DFS | Mirroring hierarchical layouts (e.g. RTL UI trees) |
 | 227 | [Basic Calculator II](227.%20Basic%20Calculator%20II.cpp) | 🟡 Medium | O(n) | O(1) | Stack (Simulated) | Operator-precedence parsing in expression engines |
 | 228 | [Summary Ranges](228.%20Summary%20Ranges.cpp) | 🟢 Easy | O(n) | O(1) | Two Pointers | Compressing ID lists (e.g. "pages 1-5, 8") |
