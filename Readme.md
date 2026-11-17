@@ -128,7 +128,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 188 | [Best Time to Buy and Sell Stock IV](188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV.cpp) | [Open](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | 🔴 Hard | O(n·k) | O(k) | Dynamic Programming | Trading strategies with a transaction limit |
 | 189 | [Rotate Array](189.%20Rotate%20Array.cpp) | [Open](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | O(n) | O(1) | Two Pointers | Rotating circular buffers |
 | 190 | [Reverse Bits](190.%20Reverse%20Bits.cpp) | [Open](https://leetcode.com/problems/reverse-bits/) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Bit reversal in FFT and signal processing |
-| 191 | [Number of 1 Bits](191.%20Number%20of%201%20Bits.cpp) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Counting set flags in permissions and bitmap indexes |
+| 191 | [Number of 1 Bits](191.%20Number%20of%201%20Bits.cpp) | [Open](https://leetcode.com/problems/number-of-1-bits/) | 🟢 Easy | O(1) | O(1) | Bit Manipulation | Counting set flags in permissions and bitmap indexes |
 | 198 | [House Robber](198.%20House%20Robber.cpp) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Picking non-conflicting jobs or ads for maximum value |
 | 199 | [Binary Tree Right Side View](199.%20Binary%20Tree%20Right%20Side%20View.cpp) | 🟡 Medium | O(n) | O(w) | Tree | Finding visible elements in UI hierarchies |
 | 200 | [Number of Islands](200.%20Number%20of%20Islands.cpp) | 🟡 Medium | O(m·n) | O(min(m,n)) | Graph | Counting connected regions in maps and images |
