@@ -114,7 +114,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 164 | [Maximum Gap](164.%20Maximum%20Gap.cpp) | [Open](https://leetcode.com/problems/maximum-gap/) | 🟡 Medium | O(n) | O(n) | Sorting | Spotting the largest gap in time-series data |
 | 165 | [Compare Version Numbers](165.%20Compare%20Version%20Numbers.cpp) | [Open](https://leetcode.com/problems/compare-version-numbers/) | 🟡 Medium | O(n+m) | O(1) | String | Comparing software versions in package managers |
 | 166 | [Fraction to Recurring Decimal](166.%20Fraction%20to%20Recurring%20Decimal.cpp) | [Open](https://leetcode.com/problems/fraction-to-recurring-decimal/) | 🟡 Medium | O(d) | O(d) | Hash Map | Exact decimal display in calculators and finance apps |
-| 167 | [Two Sum II - Input Array Is Sorted](167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp) | 🟡 Medium | O(n) | O(1) | Two Pointers | Pair matching on sorted data (budget pairing) |
+| 167 | [Two Sum II - Input Array Is Sorted](167.%20Two%20Sum%20II%20-%20Input%20Array%20Is%20Sorted.cpp) | [Open](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟡 Medium | O(n) | O(1) | Two Pointers | Pair matching on sorted data (budget pairing) |
 | 168 | [Excel Sheet Column Title](168.%20Excel%20Sheet%20Column%20Title.cpp) | 🟢 Easy | O(log n) | O(1) | Math | Spreadsheet column labels |
 | 169 | [Majority Element](169.%20Majority%20Element.cpp) | 🟢 Easy | O(n) | O(n) | Hash Map | Majority voting in distributed consensus |
 | 170 | [Two Sum III - Data structure design](170.%20Two%20Sum%20III%20-%20Data%20structure%20design.cpp) | 🟢 Easy | O(1) add, O(n) find | O(n) | Design | Real-time pair-sum queries on streaming data |
