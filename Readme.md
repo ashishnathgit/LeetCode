@@ -120,7 +120,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 170 | [Two Sum III - Data structure design](170.%20Two%20Sum%20III%20-%20Data%20structure%20design.cpp) | [Open](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | 🟢 Easy | O(1) add, O(n) find | O(n) | Design | Real-time pair-sum queries on streaming data |
 | 171 | [Excel Sheet Column Number](171.%20Excel%20Sheet%20Column%20Number.cpp) | [Open](https://leetcode.com/problems/excel-sheet-column-number/) | 🟢 Easy | O(n) | O(1) | Math | Parsing spreadsheet column labels |
 | 172 | [Factorial Trailing Zeroes](172.%20Factorial%20Trailing%20Zeroes.cpp) | [Open](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 Medium | O(log n) | O(1) | Math | Number theory in big-number libraries |
-| 173 | [Binary Search Tree Iterator](173.%20Binary%20Search%20Tree%20Iterator.cpp) | 🟡 Medium | O(1) avg | O(h) | Design | Lazy iterators and database cursors over sorted indexes |
+| 173 | [Binary Search Tree Iterator](173.%20Binary%20Search%20Tree%20Iterator.cpp) | [Open](https://leetcode.com/problems/binary-search-tree-iterator/) | 🟡 Medium | O(1) avg | O(h) | Design | Lazy iterators and database cursors over sorted indexes |
 | 174 | [Dungeon Game](174.%20Dungeon%20Game.cpp) | 🔴 Hard | O(m·n) | O(n) | Dynamic Programming | Resource budgeting along grid paths (robotics, games) |
 | 179 | [Largest Number](179.%20Largest%20Number.cpp) | 🟡 Medium | O(n log n) | O(n) | Sorting | Ordering items with a custom comparator |
 | 186 | [Reverse Words in a String II](186.%20Reverse%20Words%20in%20a%20String%20II.cpp) | 🟡 Medium | O(n) | O(1) | Two Pointers | In-place text edits on memory-limited systems |
