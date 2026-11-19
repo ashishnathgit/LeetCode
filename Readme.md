@@ -31,35 +31,35 @@ This repository is more than just technical interview preparation—it is a cont
 | Backtracking | 4 | Search over choices: segmentation, solvers, config generation |
 | Stack | 3 | Expression evaluation, undo stacks, parsers |
 | Trie | 3 | Autocomplete, spell check, IP routing |
-| Binary Tree DFS | 2 | — |
+| Binary Tree DFS | 2 | Walking ASTs, org charts and directory trees |
 | Divide and Conquer | 2 | Parallel merge sort, inversion metrics in rankings |
 | Greedy | 2 | Fuel/battery planning, fair allocation |
 | Matrix | 2 | Image processing, grid-based games and spreadsheets |
 | Sliding Window | 2 | Rate limiters, stream analytics, quotas |
 | Sorting | 2 | Ranking, custom ordering, gap analysis |
 | Topological Sort | 2 | Build systems, package managers, task schedulers |
-| 2D DP | 1 | — |
+| 2D DP | 1 | Edit distance, sequence alignment, grid path costs |
 | Array | 1 | Gap detection in IDs, schedules and sequence numbers |
-| BST Inorder Traversal | 1 | — |
-| BST Traversal | 1 | — |
-| Binary Tree + Divide and Conquer | 1 | — |
-| Boyer-Moore Voting | 1 | — |
-| Bucketing + Sliding Window | 1 | — |
-| Counting Sort | 1 | — |
-| Design + Queue | 1 | — |
-| Design + Stack | 1 | — |
-| Fast & Slow Pointers + Reversal | 1 | — |
-| Geometry | 1 | — |
-| Heap | 1 | — |
-| Interval Cost Precompute + Partition DP | 1 | — |
-| Math / Digit Counting | 1 | — |
-| Monotonic Deque | 1 | — |
-| Prefix/Suffix Products | 1 | — |
-| Sliding Window + Hash Set | 1 | — |
-| Sliding Window + Monotonic Deque | 1 | — |
-| Stack (Simulated) | 1 | — |
-| Staircase Search | 1 | — |
-| Sweep Line + Multiset | 1 | — |
+| BST Inorder Traversal | 1 | Ordered iteration over sorted indexes |
+| BST Traversal | 1 | Range queries and lookups in ordered indexes |
+| Binary Tree + Divide and Conquer | 1 | Aggregating metrics bottom-up in hierarchies |
+| Boyer-Moore Voting | 1 | Majority detection in streams, consensus checks |
+| Bucketing + Sliding Window | 1 | Near-duplicate detection in time-series data |
+| Counting Sort | 1 | Histograms, citation metrics, sorting small-range keys |
+| Design + Queue | 1 | Message queues, schedulers, buffered pipelines |
+| Design + Stack | 1 | Undo history, call stacks, min/max tracking |
+| Fast & Slow Pointers + Reversal | 1 | In-place list checks without extra memory |
+| Geometry | 1 | Mapping, CAD, collision detection |
+| Heap | 1 | Priority queues, top-k ranking, task scheduling |
+| Interval Cost Precompute + Partition DP | 1 | Optimal batching and segmentation of data |
+| Math / Digit Counting | 1 | Page numbering, counters, numeric analytics |
+| Monotonic Deque | 1 | Rolling max/min in monitoring and trading |
+| Prefix/Suffix Products | 1 | Precomputed aggregates for fast range queries |
+| Sliding Window + Hash Set | 1 | Dedup within recent windows, replay detection |
+| Sliding Window + Monotonic Deque | 1 | Streaming window extremes for alerting |
+| Stack (Simulated) | 1 | Iterative traversal without recursion limits |
+| Staircase Search | 1 | Searching sorted 2D tables and matrices |
+| Sweep Line + Multiset | 1 | Skylines, calendar overlaps, resource usage over time |
 
 ### All Problems
 
