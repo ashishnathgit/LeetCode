@@ -11,28 +11,30 @@ This repository is more than just technical interview preparation—it is a cont
 *This section updates itself: each solution starts with a one-line tag (difficulty, time, space, pattern, real-world use), and a GitHub Action rebuilds these tables on every push.*
 
 <!-- PROGRESS:START -->
-**117 problems solved** · 🟢 31 Easy · 🟡 63 Medium · 🔴 23 Hard
+**137 problems solved** · 🟢 40 Easy · 🟡 72 Medium · 🔴 25 Hard
 
 ### By Pattern
 
 | Pattern | Solved | Where it's used in real systems |
 | :--- | :---: | :--- |
-| Hash Map | 12 | O(1) lookups: dedup, grouping, counting, caching |
+| Hash Map | 14 | O(1) lookups: dedup, grouping, counting, caching |
+| Dynamic Programming | 11 | Diff tools, budgeting, scheduling, trading strategies |
 | Linked List | 10 | LRU caches, undo history, allocators, cycle detection |
-| Dynamic Programming | 9 | Diff tools, budgeting, scheduling, trading strategies |
-| Two Pointers | 7 | Dedup, in-place rotation, merging sorted data |
-| Bit Manipulation | 6 | Flags, checksums, subnet math, compact storage |
-| Math | 6 | Spreadsheet labels, date math, primes for hashing |
-| Tree | 6 | File systems, DOM trees, ASTs, database indexes |
-| Design | 5 | Caches, iterators, buffered I/O, streaming APIs |
+| Math | 9 | Spreadsheet labels, date math, primes for hashing |
+| Two Pointers | 9 | Dedup, in-place rotation, merging sorted data |
+| Bit Manipulation | 8 | Flags, checksums, subnet math, compact storage |
+| Tree | 7 | File systems, DOM trees, ASTs, database indexes |
+| Binary Search | 6 | Index lookups, git bisect, searching sorted or rotated data |
+| Design | 6 | Caches, iterators, buffered I/O, streaming APIs |
+| String | 6 | Parsing, fuzzy matching, version compare, text search |
 | Graph | 5 | Routing, flood fill, object-graph copying, connected regions |
-| String | 5 | Parsing, fuzzy matching, version compare, text search |
-| Binary Search | 4 | Index lookups, git bisect, searching sorted or rotated data |
-| Backtracking | 3 | Search over choices: segmentation, solvers, config generation |
+| Backtracking | 4 | Search over choices: segmentation, solvers, config generation |
 | Stack | 3 | Expression evaluation, undo stacks, parsers |
 | Trie | 3 | Autocomplete, spell check, IP routing |
 | Binary Tree DFS | 2 | — |
+| Divide and Conquer | 2 | Parallel merge sort, inversion metrics in rankings |
 | Greedy | 2 | Fuel/battery planning, fair allocation |
+| Matrix | 2 | Image processing, grid-based games and spreadsheets |
 | Sliding Window | 2 | Rate limiters, stream analytics, quotas |
 | Sorting | 2 | Ranking, custom ordering, gap analysis |
 | Topological Sort | 2 | Build systems, package managers, task schedulers |
@@ -43,15 +45,14 @@ This repository is more than just technical interview preparation—it is a cont
 | Binary Tree + Divide and Conquer | 1 | — |
 | Boyer-Moore Voting | 1 | — |
 | Bucketing + Sliding Window | 1 | — |
+| Counting Sort | 1 | — |
 | Design + Queue | 1 | — |
 | Design + Stack | 1 | — |
-| Divide and Conquer | 1 | Parallel merge sort, inversion metrics in rankings |
 | Fast & Slow Pointers + Reversal | 1 | — |
 | Geometry | 1 | — |
 | Heap | 1 | — |
 | Interval Cost Precompute + Partition DP | 1 | — |
 | Math / Digit Counting | 1 | — |
-| Matrix | 1 | Image processing, grid-based games and spreadsheets |
 | Monotonic Deque | 1 | — |
 | Prefix/Suffix Products | 1 | — |
 | Sliding Window + Hash Set | 1 | — |
@@ -172,6 +173,26 @@ This repository is more than just technical interview preparation—it is a cont
 | 238 | [Product of Array Except Self](238.%20Product%20of%20Array%20Except%20Self.cpp) | [Open](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | O(n) | O(1) extra | Prefix/Suffix Products | Leave-one-out aggregates in analytics |
 | 239 | [Sliding Window Maximum](239.%20Sliding%20Window%20Maximum.cpp) | [Open](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | O(n) | O(k) | Monotonic Deque | Rolling max for stock prices and network monitoring |
 | 240 | [Search a 2D Matrix II](240.%20Search%20a%202D%20Matrix%20II.cpp) | [Open](https://leetcode.com/problems/search-a-2d-matrix-ii/) | 🟡 Medium | O(m + n) | O(1) | Staircase Search | Lookups in row/column-sorted tables |
+| 241 | [Different Ways to Add Parentheses](241.%20Different%20Ways%20to%20Add%20Parentheses.cpp) | [Open](https://leetcode.com/problems/different-ways-to-add-parentheses/) | 🟡 Medium | O(Catalan(n)) | O(Catalan(n)) | Divide and Conquer | Enumerating evaluation orders in expression parsers |
+| 242 | [Valid Anagram](242.%20Valid%20Anagram.cpp) | [Open](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | O(n) | O(1) | Hash Map | Detecting reordered content, e.g. dedup of shuffled tokens |
+| 257 | [Binary Tree Paths](257.%20Binary%20Tree%20Paths.cpp) | [Open](https://leetcode.com/problems/binary-tree-paths/) | 🟢 Easy | O(n * h) | O(h) | Tree | Listing every full path in a file system or category tree |
+| 258 | [Add Digits](258.%20Add%20Digits.cpp) | [Open](https://leetcode.com/problems/add-digits/) | 🟢 Easy | O(1) | O(1) | Math | Digital-root checksums (e.g. quick validation of IDs) |
+| 260 | [Single Number III](260.%20Single%20Number%20III.cpp) | [Open](https://leetcode.com/problems/single-number-iii/) | 🟡 Medium | O(n) | O(1) | Bit Manipulation | Finding two mismatched records between datasets |
+| 263 | [Ugly Number](263.%20Ugly%20Number.cpp) | [Open](https://leetcode.com/problems/ugly-number/) | 🟢 Easy | O(log n) | O(1) | Math | Checking FFT-friendly sizes made only of small prime factors |
+| 264 | [Ugly Number II](264.%20Ugly%20Number%20II.cpp) | [Open](https://leetcode.com/problems/ugly-number-ii/) | 🟡 Medium | O(n) | O(n) | Dynamic Programming | Merging multiple sorted generated streams in order |
+| 268 | [Missing Number](268.%20Missing%20Number.cpp) | [Open](https://leetcode.com/problems/missing-number/) | 🟢 Easy | O(n) | O(1) | Bit Manipulation | Spotting a missing sequence number in packets or IDs |
+| 273 | [Integer to English Words](273.%20Integer%20to%20English%20Words.cpp) | [Open](https://leetcode.com/problems/integer-to-english-words/) | 🔴 Hard | O(log n) | O(1) | String | Writing amounts in words on cheques and invoices |
+| 274 | [H-Index](274.%20H-Index.cpp) | [Open](https://leetcode.com/problems/h-index/) | 🟡 Medium | O(n) | O(n) | Counting Sort | Researcher impact metrics and popularity thresholds |
+| 275 | [H-Index II](275.%20H-Index%20II.cpp) | [Open](https://leetcode.com/problems/h-index-ii/) | 🟡 Medium | O(log n) | O(1) | Binary Search | Threshold queries over pre-sorted metrics |
+| 278 | [First Bad Version](278.%20First%20Bad%20Version.cpp) | [Open](https://leetcode.com/problems/first-bad-version/) | 🟢 Easy | O(log n) | O(1) | Binary Search | git bisect — finding the commit that introduced a bug |
+| 279 | [Perfect Squares](279.%20Perfect%20Squares.cpp) | [Open](https://leetcode.com/problems/perfect-squares/) | 🟡 Medium | O(n * sqrt(n)) | O(n) | Dynamic Programming | Minimum-coin style change making and resource packing |
+| 282 | [Expression Add Operators](282.%20Expression%20Add%20Operators.cpp) | [Open](https://leetcode.com/problems/expression-add-operators/) | 🔴 Hard | O(4^n) | O(n) | Backtracking | Generating candidate formulas in puzzle solvers and calculators |
+| 283 | [Move Zeroes](283.%20Move%20Zeroes.cpp) | [Open](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | O(n) | O(1) | Two Pointers | Compacting arrays in-place, e.g. removing tombstoned entries |
+| 284 | [Peeking Iterator](284.%20Peeking%20Iterator.cpp) | [Open](https://leetcode.com/problems/peeking-iterator/) | 🟡 Medium | O(1) per call | O(1) | Design | Lookahead in tokenizers and stream parsers |
+| 287 | [Find the Duplicate Number](287.%20Find%20the%20Duplicate%20Number.cpp) | [Open](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | O(n) | O(1) | Two Pointers | Cycle detection in linked structures and pointer graphs |
+| 289 | [Game of Life](289.%20Game%20of%20Life.cpp) | [Open](https://leetcode.com/problems/game-of-life/) | 🟡 Medium | O(m * n) | O(1) | Matrix | Cellular automata, in-place grid simulations |
+| 290 | [Word Pattern](290.%20Word%20Pattern.cpp) | [Open](https://leetcode.com/problems/word-pattern/) | 🟢 Easy | O(n) | O(n) | Hash Map | Validating one-to-one mappings, e.g. schema field aliases |
+| 292 | [Nim Game](292.%20Nim%20Game.cpp) | [Open](https://leetcode.com/problems/nim-game/) | 🟢 Easy | O(1) | O(1) | Math | Game theory reasoning for turn-based strategy engines |
 | 493 | [Reverse Pairs](493.%20Reverse%20Pairs.cpp) | [Open](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | O(n log n) | O(n) | Divide and Conquer | Counting ranking inversions in recommendation systems |
 | 554 | [Brick Wall](554.%20Brick%20Wall.cpp) | [Open](https://leetcode.com/problems/brick-wall/) | 🟡 Medium | O(total bricks) | O(n) | Hash Map | Finding the best cut line (layout, shard boundaries) |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp) | [Open](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | 🟡 Medium | O(n) | O(1) | Hash Map | Pairing complementary items, like matching buy and sell orders |
