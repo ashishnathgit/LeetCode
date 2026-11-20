@@ -11,7 +11,7 @@ This repository is more than just technical interview preparation—it is a cont
 *This section updates itself: each solution starts with a one-line tag (difficulty, time, space, pattern, real-world use), and a GitHub Action rebuilds these tables on every push.*
 
 <!-- PROGRESS:START -->
-**137 problems solved** · 🟢 40 Easy · 🟡 72 Medium · 🔴 25 Hard
+**138 problems solved** · 🟢 40 Easy · 🟡 72 Medium · 🔴 25 Hard
 
 ### By Pattern
 
@@ -195,6 +195,7 @@ This repository is more than just technical interview preparation—it is a cont
 | 292 | [Nim Game](292.%20Nim%20Game.cpp) | [Open](https://leetcode.com/problems/nim-game/) | 🟢 Easy | O(1) | O(1) | Math | Game theory reasoning for turn-based strategy engines |
 | 493 | [Reverse Pairs](493.%20Reverse%20Pairs.cpp) | [Open](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | O(n log n) | O(n) | Divide and Conquer | Counting ranking inversions in recommendation systems |
 | 554 | [Brick Wall](554.%20Brick%20Wall.cpp) | [Open](https://leetcode.com/problems/brick-wall/) | 🟡 Medium | O(total bricks) | O(n) | Hash Map | Finding the best cut line (layout, shard boundaries) |
+| 828 | [Count Unique Characters of All Substrings of a Given String](828.%20Count%20Unique%20Characters%20of%20All%20Substrings%20of%20a%20Given%20String.cpp) | [Open](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | — | — | — | — | — |
 | 2131 | [Longest Palindrome by Concatenating Two Letter Words](2131.%20Longest%20Palindrome%20by%20Concatenating%20Two%20Letter%20Words.cpp) | [Open](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/) | 🟡 Medium | O(n) | O(1) | Hash Map | Pairing complementary items, like matching buy and sell orders |
 | 2225 | [Find Players With Zero or One Losses](2225.%20Find%20Players%20With%20Zero%20or%20One%20Losses.cpp) | [Open](https://leetcode.com/problems/find-players-with-zero-or-one-losses/) | 🟡 Medium | O(n log n) | O(n) | Hash Map | Tournament standings and leaderboards |
 | 2409 | [Count Days Spent Together](2409.%20Count%20Days%20Spent%20Together.cpp) | [Open](https://leetcode.com/problems/count-days-spent-together/) | 🟢 Easy | O(1) | O(1) | Math | Date-range overlap in booking systems |
