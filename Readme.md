@@ -11,31 +11,31 @@ This repository is more than just technical interview preparation—it is a cont
 *This section updates itself: each solution starts with a one-line tag (difficulty, time, space, pattern, real-world use), and a GitHub Action rebuilds these tables on every push.*
 
 <!-- PROGRESS:START -->
-**143 problems solved** · 🟢 40 Easy · 🟡 74 Medium · 🔴 28 Hard
+**148 problems solved** · 🟢 41 Easy · 🟡 78 Medium · 🔴 28 Hard
 
 ### By Pattern
 
 | Pattern | Solved | Where it's used in real systems |
 | :--- | :---: | :--- |
 | Hash Map | 15 | O(1) lookups: dedup, grouping, counting, caching |
-| Dynamic Programming | 11 | Diff tools, budgeting, scheduling, trading strategies |
+| Dynamic Programming | 12 | Diff tools, budgeting, scheduling, trading strategies |
 | Linked List | 10 | LRU caches, undo history, allocators, cycle detection |
 | Math | 9 | Spreadsheet labels, date math, primes for hashing |
 | Two Pointers | 9 | Dedup, in-place rotation, merging sorted data |
 | Bit Manipulation | 8 | Flags, checksums, subnet math, compact storage |
+| Design | 8 | Caches, iterators, buffered I/O, streaming APIs |
 | Tree | 8 | File systems, DOM trees, ASTs, database indexes |
 | Binary Search | 7 | Index lookups, git bisect, searching sorted or rotated data |
-| Design | 6 | Caches, iterators, buffered I/O, streaming APIs |
-| String | 6 | Parsing, fuzzy matching, version compare, text search |
+| String | 7 | Parsing, fuzzy matching, version compare, text search |
 | Backtracking | 5 | Search over choices: segmentation, solvers, config generation |
 | Graph | 5 | Routing, flood fill, object-graph copying, connected regions |
+| Matrix | 3 | Image processing, grid-based games and spreadsheets |
 | Stack | 3 | Expression evaluation, undo stacks, parsers |
 | Trie | 3 | Autocomplete, spell check, IP routing |
 | Binary Tree DFS | 2 | Walking ASTs, org charts and directory trees |
 | Divide and Conquer | 2 | Parallel merge sort, inversion metrics in rankings |
 | Greedy | 2 | Fuel/battery planning, fair allocation |
 | Heap | 2 | Priority queues, top-k ranking, task scheduling |
-| Matrix | 2 | Image processing, grid-based games and spreadsheets |
 | Sliding Window | 2 | Rate limiters, stream analytics, quotas |
 | Sorting | 2 | Ranking, custom ordering, gap analysis |
 | Topological Sort | 2 | Build systems, package managers, task schedulers |
@@ -198,6 +198,11 @@ This repository is more than just technical interview preparation—it is a cont
 | 299 | [Bulls and Cows](299.%20Bulls%20and%20Cows.cpp) | [Open](https://leetcode.com/problems/bulls-and-cows/) | 🟡 Medium | O(n) | O(1) | Hash Map | Exact vs. positional mismatch scoring in code-breaking and fuzzy matching |
 | 300 | [Longest Increasing Subsequence](300.%20Longest%20Increasing%20Subsequence.cpp) | [Open](https://leetcode.com/problems/longest-increasing-subsequence/) | 🟡 Medium | O(n log n) | O(n) | Binary Search | Version ordering, diff alignment, and patience sorting |
 | 301 | [Remove Invalid Parentheses](301.%20Remove%20Invalid%20Parentheses.cpp) | [Open](https://leetcode.com/problems/remove-invalid-parentheses/) | 🔴 Hard | O(2^n) | O(n) | Backtracking | Syntax error recovery and minimal expression repair |
+| 303 | [Range Sum Query - Immutable](303.%20Range%20Sum%20Query%20-%20Immutable.cpp) | [Open](https://leetcode.com/problems/range-sum-query-immutable/) | 🟢 Easy | O(n) build, O(1) query | O(n) | Design | Fast immutable range aggregations in analytics and time-series |
+| 304 | [Range Sum Query 2D - Immutable](304.%20Range%20Sum%20Query%202D%20-%20Immutable.cpp) | [Open](https://leetcode.com/problems/range-sum-query-2d-immutable/) | 🟡 Medium | O(m·n) build, O(1) query | O(m·n) | Matrix | Integral images (summed-area tables) in computer vision and heatmaps |
+| 306 | [Additive Number](306.%20Additive%20Number.cpp) | [Open](https://leetcode.com/problems/additive-number/) | 🟡 Medium | O(n³) | O(n) | String | Sequence validation and arbitrary-precision string arithmetic |
+| 307 | [Range Sum Query - Mutable](307.%20Range%20Sum%20Query%20-%20Mutable.cpp) | [Open](https://leetcode.com/problems/range-sum-query-mutable/) | 🟡 Medium | O(log n) update/query | O(n) | Design | Real-time prefix aggregates and mutable range analytics (Fenwick tree) |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown](309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown.cpp) | [Open](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | 🟡 Medium | O(n) | O(1) | Dynamic Programming | Trading and scheduling optimization with mandatory cooldown periods |
 | 493 | [Reverse Pairs](493.%20Reverse%20Pairs.cpp) | [Open](https://leetcode.com/problems/reverse-pairs/) | 🔴 Hard | O(n log n) | O(n) | Divide and Conquer | Counting ranking inversions in recommendation systems |
 | 554 | [Brick Wall](554.%20Brick%20Wall.cpp) | [Open](https://leetcode.com/problems/brick-wall/) | 🟡 Medium | O(total bricks) | O(n) | Hash Map | Finding the best cut line (layout, shard boundaries) |
 | 828 | [Count Unique Characters of All Substrings of a Given String](828.%20Count%20Unique%20Characters%20of%20All%20Substrings%20of%20a%20Given%20String.cpp) | [Open](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) | — | — | — | — | — |
